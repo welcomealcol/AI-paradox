@@ -1,0 +1,1090 @@
+ID,Group,Major,Turn,CI,V,R,Prompt
+C001,Low,Computer Science,1,L3,V2,R2,"我写了一个二分查找，但栈溢出。代码：`def binary_search(arr,target):...` 请帮我看看问题在哪。"
+C001,Low,Computer Science,2,L2,V2,,递归和迭代哪个效率更高？能讲一下原理吗？
+C001,Low,Computer Science,3,L3,V2,R2,我的排序算法时间复杂度太高，这是代码……怎样改进？
+C001,Low,Computer Science,4,L2,V2,R2,如何优化这段SQL查询？先给我思路。
+C001,Low,Computer Science,5,L4,V3,R3,你刚才给的代码在Python 3.11下会报错吗？有没有兼容性问题？
+C001,Low,Computer Science,6,L3,V2,R2,我之前写的二分查找改成迭代后效率提升明显。我想总结一下递归和迭代的适用场景，你能帮我梳理一个对比表格吗？
+C002,Low,Physics,1,L3,V2,R2,我计算一个滑块在斜面上的受力：mgsinθ - μmgcosθ = ma。但答案不同，我哪里错了？
+C002,Low,Physics,2,L2,V2,,如何推导单摆周期公式？一步步来。
+C002,Low,Physics,3,L3,V3,R3,我的实验数据：摆长1m，周期2.01s，但理论值2.006s。可能误差来源？
+C002,Low,Physics,4,L2,V2,R2,麦克斯韦方程组的物理意义是什么？
+C002,Low,Physics,5,L2,V2,R1,我计划用实验验证单摆周期公式，需要设计一个测量摆长和周期的方案。请帮我列出关键步骤和注意事项。
+C003,Low,Economics,1,L3,V2,R3,我的回归模型：Y=2+0.5X，但R方只有0.3。模型有问题吗？
+C003,Low,Economics,2,L2,V2,,供求曲线移动如何影响均衡价格？分步骤说明。
+C003,Low,Economics,3,L3,V2,R2,我认为通胀预期会导致菲利普斯曲线右移，你同意吗？为什么？
+C003,Low,Economics,4,L2,V2,,什么是机会成本？举个例子。
+C003,Low,Economics,5,L4,V3,R3,你引用的CPI数据来自哪一年？国家统计局最新数据是2023年，请核对。
+C003,Low,Economics,6,L3,V3,R3,你之前对菲利普斯曲线的解释忽略了理性预期。我查阅了卢卡斯的文献，认为你的分析有误。请修正并补充理性预期学派的观点。
+C004,Low,Electronic Eng,1,L3,V2,,"我设计了一个二阶巴特沃斯滤波器，R=1k, C=33nF。请验证截止频率是否正确。"
+C004,Low,Electronic Eng,2,L3,V2,R2,这是我的PCB布局截图，请指出可能存在的信号完整性问题。
+C004,Low,Electronic Eng,3,L2,V2,R2,解释一下什么是‘虚短’和‘虚断’。
+C004,Low,Electronic Eng,4,L2,V2,,如何计算RC低通滤波器的截止频率？步骤是什么？
+C004,Low,Electronic Eng,5,L4,V3,R3,你推荐的LM358在5V单电源下能输出满幅吗？请查数据手册确认。
+C004,Low,Electronic Eng,6,L2,V2,R2,我设计的滤波器仿真通过了，但实际电路噪声很大。我怀疑是电源去耦问题。请帮我分析可能原因并给出排查顺序。
+C005,Low,Literature,1,L3,V2,,我写了一句：‘月光如水，静静地流泻在窗棂上。’请评价并帮我修改得更有意境。
+C005,Low,Literature,2,L2,V2,R3,分析林黛玉的性格特点，列出三点。
+C005,Low,Literature,3,L3,V2,R2,我认为哈姆雷特的犹豫源于宗教束缚，你对此有什么反驳？
+C005,Low,Literature,4,L2,V2,,《老人与海》中的象征手法有哪些？
+C005,Low,Literature,5,L4,V3,R3,你解读的‘采菊东篱下’与陶渊明其他诗作矛盾，请提供文本依据。
+C005,Low,Literature,6,L3,V2,R1,我正在写一篇关于《红楼梦》叙事视角的论文。我打算从“全知视角”和“限知视角”交替切入。请帮我构思一个三级大纲。
+C006,Low,Mathematics,1,L3,V2,R2,我算的极限是0，但答案说极限不存在。步骤：……请帮我检查。
+C006,Low,Mathematics,2,L2,V2,,解释一下泰勒展开的原理。
+C006,Low,Mathematics,3,L3,V2,R2,这个级数收敛吗？我用比值判别法得到ρ=1，接下来怎么办？
+C006,Low,Mathematics,4,L2,V2,,什么是条件概率？举例说明。
+C006,Low,Mathematics,5,L4,V3,R3,你证明中假设了函数连续，但题目条件只给可积，这个假设成立吗？
+C006,Low,Mathematics,6,L4,V3,R3,你证明级数收敛时用了比较判别法，但比较级数选择不当。我找到了一个更严格的比较对象，请重新评估并说明你的错误。
+C007,Low,Chemistry,1,L3,V2,R2,我合成了阿司匹林，产率只有65%，可能原因？我的步骤：……。
+C007,Low,Chemistry,2,L2,V2,,如何配平氧化还原反应？步骤是什么？
+C007,Low,Chemistry,3,L3,V2,R2,这个反应机理我画了，但中间体不稳定，请指正。
+C007,Low,Chemistry,4,L2,V2,R2,解释SN1和SN2反应的区别。
+C007,Low,Chemistry,5,L4,V3,R3,你给的电负性数值与Pauling原始数据不同，请确认。
+C007,Low,Chemistry,6,L3,V2,R2,我的阿司匹林合成产率稳定在70%了。我想优化重结晶步骤。请推荐两种不同的溶剂体系并比较优缺点。
+C008,Low,Biology,1,L3,V2,R2,我设计了一个实验验证温度对酶活性的影响，但结果反常。方案：……，哪里出问题了？
+C008,Low,Biology,2,L2,V2,,有丝分裂和减数分裂的区别？列表说明。
+C008,Low,Biology,3,L3,V2,R2,我认为这个进化树的分支有问题，因为线粒体数据不支持，你怎么看？
+C008,Low,Biology,4,L2,V2,,什么是生态位？举例。
+C008,Low,Biology,5,L4,V3,R3,你提到的物种名称在ITIS数据库中查不到，请提供正确的拉丁学名。
+C008,Low,Biology,6,L2,V2,R1,下节课我要展示温度对酶活性的实验。我需要准备一个PPT，包含原理、步骤、预期结果。请帮我列出每页的核心内容。
+C009,Low,History,1,L3,V2,R2,我认为洋务运动促进了民族资本主义，但教材说它阻碍了。你的观点？
+C009,Low,History,2,L2,V2,,分析辛亥革命失败的原因。
+C009,Low,History,3,L3,V2,R3,我的论文观点：冷战始于1947年杜鲁门主义。你有反例吗？
+C009,Low,History,4,L2,V2,R2,罗马帝国分裂的内外因素有哪些？
+C009,Low,History,5,L4,V3,R3,你提到的条约签订年份与《剑桥中国史》不符，请核实。
+C009,Low,History,6,L3,V3,R3,你之前说洋务运动阻碍了民族资本主义，但我查到江南制造局孵化了多家民办企业。请提供反例的具体史料来源，否则我无法采纳。
+C010,Low,Computer Science,1,L2,V2,,如何优化这段SQL查询？先给我思路。
+C010,Low,Computer Science,2,L3,V2,R2,"我写了一个二分查找，但栈溢出。代码：`def binary_search(arr,target):...` 请帮我看看问题在哪。"
+C010,Low,Computer Science,3,L4,V2,R2,你刚才给的代码在Python 3.11下会报错吗？有没有兼容性问题？
+C010,Low,Computer Science,4,L2,V2,,递归和迭代哪个效率更高？能讲一下原理吗？
+C010,Low,Computer Science,5,L3,V3,R3,我的排序算法时间复杂度太高，这是代码……怎样改进？
+C010,Low,Computer Science,6,L2,V2,R2,我的数据库查询优化后速度提升明显。我想写一篇技术笔记分享。请帮我组织结构：问题背景、原SQL、分析过程、优化方案、效果对比。
+C011,Low,Physics,1,L3,V2,R2,我计算一个滑块在斜面上的受力：mgsinθ - μmgcosθ = ma。但答案不同，我哪里错了？
+C011,Low,Physics,2,L2,V2,,如何推导单摆周期公式？一步步来。
+C011,Low,Physics,3,L3,V2,R2,我的实验数据：摆长1m，周期2.01s，但理论值2.006s。可能误差来源？
+C011,Low,Physics,4,L2,V2,R2,麦克斯韦方程组的物理意义是什么？
+C011,Low,Physics,5,L3,V3,R3,我计算一个滑块在斜面上的受力：mgsinθ - μmgcosθ = ma。但答案不同，我哪里错了？
+C011,Low,Physics,6,L3,V2,R1,我测量了不同摆角下的周期，发现5°以内误差很小。下一步我想研究空气阻尼的影响。请帮我设计一个控制变量实验方案。
+C012,Low,Economics,1,L2,V2,,供求曲线移动如何影响均衡价格？分步骤说明。
+C012,Low,Economics,2,L3,V2,R2,我的回归模型：Y=2+0.5X，但R方只有0.3。模型有问题吗？
+C012,Low,Economics,3,L2,V2,,什么是机会成本？举个例子。
+C012,Low,Economics,4,L3,V2,R2,我认为通胀预期会导致菲利普斯曲线右移，你同意吗？为什么？
+C012,Low,Economics,5,L4,V3,R3,你引用的CPI数据来自哪一年？国家统计局最新数据是2023年，请核对。
+C012,Low,Economics,6,L4,V3,R3,你给出的CPI数据与统计局官网不一致。请核实并标注每个数据的出处年份，否则我会认为你编造了数据。
+C013,Low,Electronic Eng,1,L3,V2,R2,"我设计了一个二阶巴特沃斯滤波器，R=1k, C=33nF。请验证截止频率是否正确。"
+C013,Low,Electronic Eng,2,L2,V2,,如何计算RC低通滤波器的截止频率？步骤是什么？
+C013,Low,Electronic Eng,3,L3,V2,R2,这是我的PCB布局截图，请指出可能存在的信号完整性问题。
+C013,Low,Electronic Eng,4,L2,V2,R2,解释一下什么是‘虚短’和‘虚断’。
+C013,Low,Electronic Eng,5,L3,V3,R3,"我设计了一个二阶巴特沃斯滤波器，R=1k, C=33nF。请验证截止频率是否正确。"
+C013,Low,Electronic Eng,6,L2,V2,R2,我的PCB布局中有一条时钟线产生辐射超标。我想用包地处理。请详细说明包地的设计规则（线间距、过孔间距等）。
+C014,Low,Literature,1,L2,V2,,分析林黛玉的性格特点，列出三点。
+C014,Low,Literature,2,L3,V2,R2,我写了一句：‘月光如水，静静地流泻在窗棂上。’请评价并帮我修改得更有意境。
+C014,Low,Literature,3,L2,V2,,《老人与海》中的象征手法有哪些？
+C014,Low,Literature,4,L3,V2,R2,我认为哈姆雷特的犹豫源于宗教束缚，你对此有什么反驳？
+C014,Low,Literature,5,L4,V3,R3,你解读的‘采菊东篱下’与陶渊明其他诗作矛盾，请提供文本依据。
+C014,Low,Literature,6,L3,V2,R1,我修改了那句“月光如水”为“月光像冷却的锡箔，皱巴巴地铺在瓦上”。请评价哪个更好，并说明理由。
+C015,Low,Mathematics,1,L3,V2,R2,这个级数收敛吗？我用比值判别法得到ρ=1，接下来怎么办？
+C015,Low,Mathematics,2,L2,V2,,什么是条件概率？举例说明。
+C015,Low,Mathematics,3,L3,V2,R2,我算的极限是0，但答案说极限不存在。步骤：……请帮我检查。
+C015,Low,Mathematics,4,L2,V2,R2,解释一下泰勒展开的原理。
+C015,Low,Mathematics,5,L3,V3,R3,这个级数收敛吗？我用比值判别法得到ρ=1，接下来怎么办？
+C015,Low,Mathematics,6,L2,V2,R2,我在学习傅里叶变换，但理解不了频域和时域的关系。请用声音信号的例子，分三步解释如何从时域转换到频域。
+C016,Low,Chemistry,1,L2,V2,,如何配平氧化还原反应？步骤是什么？
+C016,Low,Chemistry,2,L3,V2,R2,我合成了阿司匹林，产率只有65%，可能原因？我的步骤：……。
+C016,Low,Chemistry,3,L2,V2,,解释SN1和SN2反应的区别。
+C016,Low,Chemistry,4,L3,V2,R2,这个反应机理我画了，但中间体不稳定，请指正。
+C016,Low,Chemistry,5,L4,V3,R3,你给的电负性数值与Pauling原始数据不同，请确认。
+C016,Low,Chemistry,6,L3,V3,R3,你建议的配平方法对高锰酸钾与草酸反应不适用。我实际配平发现电子转移数不同。请重新配平并给出系数验证。
+C017,Low,Biology,1,L3,V2,R2,我认为这个进化树的分支有问题，因为线粒体数据不支持，你怎么看？
+C017,Low,Biology,2,L2,V2,,什么是生态位？举例。
+C017,Low,Biology,3,L3,V2,R2,我设计了一个实验验证温度对酶活性的影响，但结果反常。方案：……，哪里出问题了？
+C017,Low,Biology,4,L2,V2,R2,有丝分裂和减数分裂的区别？列表说明。
+C017,Low,Biology,5,L3,V3,R3,我认为这个进化树的分支有问题，因为线粒体数据不支持，你怎么看？
+C017,Low,Biology,6,L2,V2,R1,我要做一个关于生态系统稳定性的海报。请帮我规划三个板块：概念定义、影响因素、案例研究。每个板块给出3个关键词。
+C018,Low,History,1,L2,V2,,分析辛亥革命失败的原因。
+C018,Low,History,2,L3,V2,R2,我认为洋务运动促进了民族资本主义，但教材说它阻碍了。你的观点？
+C018,Low,History,3,L2,V2,,罗马帝国分裂的内外因素有哪些？
+C018,Low,History,4,L3,V2,R2,我的论文观点：冷战始于1947年杜鲁门主义。你有反例吗？
+C018,Low,History,5,L4,V3,R3,你提到的条约签订年份与《剑桥中国史》不符，请核实。
+C018,Low,History,6,L3,V2,R2,我认为罗马帝国分裂的主因是经济重心转移，而非你之前说的军事危机。请列举支持经济因素的三个史料证据。
+C019,Low,Computer Science,1,L3,V2,R2,我的排序算法时间复杂度太高，这是代码……怎样改进？
+C019,Low,Computer Science,2,L2,V2,,Python中列表和元组的区别是什么？请举例。
+C019,Low,Computer Science,3,L3,V2,R2,"我写了一个二分查找，但栈溢出。代码：`def binary_search(arr,target):...` 请帮我看看问题在哪。"
+C019,Low,Computer Science,4,L2,V2,R2,什么是RESTful API？请分步骤说明。
+C019,Low,Computer Science,5,L3,V3,R3,这段代码运行结果不对，我怀疑是循环边界问题，你能分析一下吗？
+C019,Low,Computer Science,6,L4,V3,R3,你建议的RESTful API设计使用了动词，不符合规范。请查阅RFC 7231，然后修正为正确的方法名（GET/POST/PUT/DELETE）。
+C020,Low,Physics,1,L2,V2,,如何推导单摆周期公式？一步步来。
+C020,Low,Physics,2,L3,V2,R2,我的实验数据：摆长1m，周期2.01s，但理论值2.006s。可能误差来源？
+C020,Low,Physics,3,L2,V2,,麦克斯韦方程组的物理意义是什么？
+C020,Low,Physics,4,L3,V2,R2,我计算一个滑块在斜面上的受力：mgsinθ - μmgcosθ = ma。但答案不同，我哪里错了？
+C020,Low,Physics,5,L4,V3,R3,你给的普朗克常数数值是6.626×10^{-34}，但最新CODATA值是6.62607015×10^{-34}，为什么不一致？
+C020,Low,Physics,6,L2,V2,R1,我准备参加物理竞赛，需要复习电磁学。请帮我制定一个两周复习计划，每天2小时，涵盖静电场、恒定磁场、电磁感应。
+C021,Low,Economics,1,L3,V2,R2,我认为通胀预期会导致菲利普斯曲线右移，你同意吗？为什么？
+C021,Low,Economics,2,L2,V2,,什么是机会成本？举个例子。
+C021,Low,Economics,3,L3,V2,R2,我的回归模型：Y=2+0.5X，但R方只有0.3。模型有问题吗？
+C021,Low,Economics,4,L2,V2,R2,供求曲线移动如何影响均衡价格？分步骤说明。
+C021,Low,Economics,5,L3,V3,R3,我认为通胀预期会导致菲利普斯曲线右移，你同意吗？为什么？
+C021,Low,Economics,6,L3,V2,R2,"我的回归模型加入交互项后R方提升到0.65。我想检验交互项是否显著。请写出假设检验的完整步骤（H0, H1, 统计量, 决策规则）。"
+C022,Low,Electronic Eng,1,L2,V2,,如何计算RC低通滤波器的截止频率？步骤是什么？
+C022,Low,Electronic Eng,2,L3,V2,R2,这是我的PCB布局截图，请指出可能存在的信号完整性问题。
+C022,Low,Electronic Eng,3,L2,V2,,解释一下什么是‘虚短’和‘虚断’。
+C022,Low,Electronic Eng,4,L3,V2,R2,"我设计了一个二阶巴特沃斯滤波器，R=1k, C=33nF。请验证截止频率是否正确。"
+C022,Low,Electronic Eng,5,L4,V3,R3,你推荐的LM358在5V单电源下能输出满幅吗？请查数据手册确认。
+C022,Low,Electronic Eng,6,L2,V2,R1,我需要用Multisim仿真一个文氏电桥振荡器。请给出仿真步骤：元件选择、参数设置、起振条件观察、失真分析。
+C023,Low,Literature,1,L3,V2,R2,我认为哈姆雷特的犹豫源于宗教束缚，你对此有什么反驳？
+C023,Low,Literature,2,L2,V2,,《老人与海》中的象征手法有哪些？
+C023,Low,Literature,3,L3,V2,R2,我写了一句：‘月光如水，静静地流泻在窗棂上。’请评价并帮我修改得更有意境。
+C023,Low,Literature,4,L2,V2,R2,分析林黛玉的性格特点，列出三点。
+C023,Low,Literature,5,L3,V3,R3,我认为哈姆雷特的犹豫源于宗教束缚，你对此有什么反驳？
+C023,Low,Literature,6,L3,V3,R3,你解读《老人与海》中“狮子”象征时，忽略了海明威非洲狩猎经历的影响。请补充这个视角并重新分析。
+C024,Low,Mathematics,1,L2,V2,,什么是条件概率？举例说明。
+C024,Low,Mathematics,2,L3,V2,R2,我算的极限是0，但答案说极限不存在。步骤：……请帮我检查。
+C024,Low,Mathematics,3,L2,V2,,解释一下泰勒展开的原理。
+C024,Low,Mathematics,4,L3,V2,R2,这个级数收敛吗？我用比值判别法得到ρ=1，接下来怎么办？
+C024,Low,Mathematics,5,L4,V3,R3,你证明中假设了函数连续，但题目条件只给可积，这个假设成立吗？
+C024,Low,Mathematics,6,L2,V2,R2,我在学习线性代数中的特征值分解。请用3x3矩阵举例，手算演示特征值和特征向量的求解过程，并解释几何意义。
+C025,Low,Chemistry,1,L3,V2,R2,这个反应机理我画了，但中间体不稳定，请指正。
+C025,Low,Chemistry,2,L2,V2,,解释SN1和SN2反应的区别。
+C025,Low,Chemistry,3,L3,V2,R2,我合成了阿司匹林，产率只有65%，可能原因？我的步骤：……。
+C025,Low,Chemistry,4,L2,V2,R2,如何配平氧化还原反应？步骤是什么？
+C025,Low,Chemistry,5,L3,V3,R3,这个反应机理我画了，但中间体不稳定，请指正。
+C025,Low,Chemistry,6,L3,V2,R1,我的产率优化实验发现催化剂用量0.5g最佳。我想探索温度的影响。请设计一个5水平、3次重复的温度实验方案。
+C026,Low,Biology,1,L2,V2,,有丝分裂和减数分裂的区别？列表说明。
+C026,Low,Biology,2,L3,V2,R2,我设计了一个实验验证温度对酶活性的影响，但结果反常。方案：……，哪里出问题了？
+C026,Low,Biology,3,L2,V2,,什么是生态位？举例。
+C026,Low,Biology,4,L3,V2,R2,我认为这个进化树的分支有问题，因为线粒体数据不支持，你怎么看？
+C026,Low,Biology,5,L4,V3,R3,你提到的物种名称在ITIS数据库中查不到，请提供正确的拉丁学名。
+C026,Low,Biology,6,L2,V2,R2,我观察到某种植物在不同光照下的叶色变化。我想写一篇观察报告。请帮我组织：引言、方法、结果、讨论、结论的结构。
+C027,Low,History,1,L3,V2,R2,我的论文观点：冷战始于1947年杜鲁门主义。你有反例吗？
+C027,Low,History,2,L2,V2,,罗马帝国分裂的内外因素有哪些？
+C027,Low,History,3,L3,V2,R2,我认为洋务运动促进了民族资本主义，但教材说它阻碍了。你的观点？
+C027,Low,History,4,L2,V2,R2,分析辛亥革命失败的原因。
+C027,Low,History,5,L3,V3,R3,我的论文观点：冷战始于1947年杜鲁门主义。你有反例吗？
+C027,Low,History,6,L3,V3,R3,你说冷战始于1947年杜鲁门主义，但1946年丘吉尔铁幕演说已被广泛视为起点。请解释你的分期依据，并回应这一挑战。
+C028,Low,Computer Science,1,L2,V2,,什么是RESTful API？请分步骤说明。
+C028,Low,Computer Science,2,L3,V2,R2,我设计了数据库表结构：用户表、订单表。请帮我检查是否有冗余。
+C028,Low,Computer Science,3,L2,V2,,如何优化这段SQL查询？先给我思路。
+C028,Low,Computer Science,4,L3,V2,R2,这段代码运行结果不对，我怀疑是循环边界问题，你能分析一下吗？
+C028,Low,Computer Science,5,L4,V3,R3,你建议用Django，但我在官方文档看到Flask更适合轻量级。能提供权威出处吗？
+C028,Low,Computer Science,6,L2,V2,R1,我需要用Docker部署一个Flask应用。请给出Dockerfile和docker-compose.yml的模板，并解释每个指令的作用。
+C029,Low,Physics,1,L3,V2,R2,我的实验数据：摆长1m，周期2.01s，但理论值2.006s。可能误差来源？
+C029,Low,Physics,2,L2,V2,,麦克斯韦方程组的物理意义是什么？
+C029,Low,Physics,3,L3,V2,R2,我计算一个滑块在斜面上的受力：mgsinθ - μmgcosθ = ma。但答案不同，我哪里错了？
+C029,Low,Physics,4,L2,V2,R2,如何推导单摆周期公式？一步步来。
+C029,Low,Physics,5,L3,V3,R3,我的实验数据：摆长1m，周期2.01s，但理论值2.006s。可能误差来源？
+C029,Low,Physics,6,L3,V2,R2,我的实验数据显示单摆周期与摆角呈二次关系。我想拟合出T = T0*(1 + k*θ²)。请指导如何用最小二乘法求k和误差。
+C030,Low,Economics,1,L2,V2,,什么是机会成本？举个例子。
+C030,Low,Economics,2,L3,V2,R2,我的回归模型：Y=2+0.5X，但R方只有0.3。模型有问题吗？
+C030,Low,Economics,3,L2,V2,,供求曲线移动如何影响均衡价格？分步骤说明。
+C030,Low,Economics,4,L3,V2,R2,我认为通胀预期会导致菲利普斯曲线右移，你同意吗？为什么？
+C030,Low,Economics,5,L4,V3,R3,你引用的CPI数据来自哪一年？国家统计局最新数据是2023年，请核对。
+C030,Low,Economics,6,L4,V3,R3,你举的机会成本例子中忽略了货币时间价值。请重新计算考虑折现率的机会成本，并展示公式。
+C031,Low,Electronic Eng,1,L3,V2,R2,这是我的PCB布局截图，请指出可能存在的信号完整性问题。
+C031,Low,Electronic Eng,2,L2,V2,,解释一下什么是‘虚短’和‘虚断’。
+C031,Low,Electronic Eng,3,L3,V2,R2,"我设计了一个二阶巴特沃斯滤波器，R=1k, C=33nF。请验证截止频率是否正确。"
+C031,Low,Electronic Eng,4,L2,V2,R2,如何计算RC低通滤波器的截止频率？步骤是什么？
+C031,Low,Electronic Eng,5,L3,V3,R3,这是我的PCB布局截图，请指出可能存在的信号完整性问题。
+C031,Low,Electronic Eng,6,L2,V2,R1,我需要用逻辑分析仪抓取I2C时序。请说明探头连接、触发设置、采样率选择、解码配置的步骤。
+C032,Low,Literature,1,L2,V2,,分析林黛玉的性格特点，列出三点。
+C032,Low,Literature,2,L3,V2,R2,我认为哈姆雷特的犹豫源于宗教束缚，你对此有什么反驳？
+C032,Low,Literature,3,L2,V2,,《老人与海》中的象征手法有哪些？
+C032,Low,Literature,4,L3,V2,R2,我写了一句：‘月光如水，静静地流泻在窗棂上。’请评价并帮我修改得更有意境。
+C032,Low,Literature,5,L4,V3,R3,你解读的‘采菊东篱下’与陶渊明其他诗作矛盾，请提供文本依据。
+C032,Low,Literature,6,L3,V2,R2,我对比了“孤独”的两个排比句版本，一个偏悲伤，一个偏平静。请分析两者的意象差异和情感效果，帮我选择投稿版本。
+C033,Low,Mathematics,1,L3,V2,R2,我算的极限是0，但答案说极限不存在。步骤：……请帮我检查。
+C033,Low,Mathematics,2,L2,V2,,解释一下泰勒展开的原理。
+C033,Low,Mathematics,3,L3,V2,R2,这个级数收敛吗？我用比值判别法得到ρ=1，接下来怎么办？
+C033,Low,Mathematics,4,L2,V2,R2,什么是条件概率？举例说明。
+C033,Low,Mathematics,5,L3,V3,R3,我算的极限是0，但答案说极限不存在。步骤：……请帮我检查。
+C033,Low,Mathematics,6,L2,V2,R1,我在复习概率论，准备考试。请帮我归纳常见分布（二项、泊松、正态、指数）的关系图和转换条件。
+C034,Low,Chemistry,1,L2,V2,,如何配平氧化还原反应？步骤是什么？
+C034,Low,Chemistry,2,L3,V2,R2,这个反应机理我画了，但中间体不稳定，请指正。
+C034,Low,Chemistry,3,L2,V2,,解释SN1和SN2反应的区别。
+C034,Low,Chemistry,4,L3,V2,R2,我合成了阿司匹林，产率只有65%，可能原因？我的步骤：……。
+C034,Low,Chemistry,5,L4,V3,R3,你给的电负性数值与Pauling原始数据不同，请确认。
+C034,Low,Chemistry,6,L3,V3,R3,你给的电负性数值中，氟为3.98，但Pauling原始数据是4.0。请确认是否采用不同标度，并说明对电负性差值计算的影响。
+C035,Low,Biology,1,L3,V2,R2,我设计了一个实验验证温度对酶活性的影响，但结果反常。方案：……，哪里出问题了？
+C035,Low,Biology,2,L2,V2,,什么是生态位？举例。
+C035,Low,Biology,3,L3,V2,R2,我认为这个进化树的分支有问题，因为线粒体数据不支持，你怎么看？
+C035,Low,Biology,4,L2,V2,R2,有丝分裂和减数分裂的区别？列表说明。
+C035,Low,Biology,5,L3,V3,R3,我设计了一个实验验证温度对酶活性的影响，但结果反常。方案：……，哪里出问题了？
+C035,Low,Biology,6,L2,V2,R2,我设计了一个探究pH对淀粉酶活性的实验。请帮我列出需要控制的变量（至少5个）以及如何控制。
+C036,Low,History,1,L2,V2,,分析辛亥革命失败的原因。
+C036,Low,History,2,L3,V2,R2,我的论文观点：冷战始于1947年杜鲁门主义。你有反例吗？
+C036,Low,History,3,L2,V2,,罗马帝国分裂的内外因素有哪些？
+C036,Low,History,4,L3,V2,R2,我认为洋务运动促进了民族资本主义，但教材说它阻碍了。你的观点？
+C036,Low,History,5,L4,V3,R3,你提到的条约签订年份与《剑桥中国史》不符，请核实。
+C036,Low,History,6,L3,V2,R1,我的论文题目是“甲午战争前后的中日舆论战”。请帮我构思三个子论点，每个子论点提供两个可能的史料来源。
+C037,Low,Computer Science,1,L3,V2,R2,"我写了一个二分查找，但栈溢出。代码：`def binary_search(arr,target):...` 请帮我看看问题在哪。"
+C037,Low,Computer Science,2,L2,V2,,递归和迭代哪个效率更高？能讲一下原理吗？
+C037,Low,Computer Science,3,L3,V2,R2,我的排序算法时间复杂度太高，这是代码……怎样改进？
+C037,Low,Computer Science,4,L2,V2,R2,如何优化这段SQL查询？先给我思路。
+C037,Low,Computer Science,5,L3,V3,R3,"我写了一个二分查找，但栈溢出。代码：`def binary_search(arr,target):...` 请帮我看看问题在哪。"
+C037,Low,Computer Science,6,L4,V3,R3,你提供的快速排序代码在处理重复元素时会出现无限递归。请修复这个bug，并解释为什么经典实现需要处理等值情况。
+C038,Low,Physics,1,L2,V2,,如何推导单摆周期公式？一步步来。
+C038,Low,Physics,2,L3,V2,R2,我计算一个滑块在斜面上的受力：mgsinθ - μmgcosθ = ma。但答案不同，我哪里错了？
+C038,Low,Physics,3,L2,V2,,麦克斯韦方程组的物理意义是什么？
+C038,Low,Physics,4,L3,V2,R2,我的实验数据：摆长1m，周期2.01s，但理论值2.006s。可能误差来源？
+C038,Low,Physics,5,L4,V3,R3,你给的普朗克常数数值是6.626×10^{-34}，但最新CODATA值是6.62607015×10^{-34}，为什么不一致？
+C038,Low,Physics,6,L2,V2,R2,我想用Tracker软件分析抛体运动视频。请给出操作流程：标定尺度、追踪轨迹、拟合抛物线、提取初速度和角度。
+C039,Low,Economics,1,L3,V2,R2,我的回归模型：Y=2+0.5X，但R方只有0.3。模型有问题吗？
+C039,Low,Economics,2,L2,V2,,供求曲线移动如何影响均衡价格？分步骤说明。
+C039,Low,Economics,3,L3,V2,R2,我认为通胀预期会导致菲利普斯曲线右移，你同意吗？为什么？
+C039,Low,Economics,4,L2,V2,R2,什么是机会成本？举个例子。
+C039,Low,Economics,5,L3,V3,R3,我的回归模型：Y=2+0.5X，但R方只有0.3。模型有问题吗？
+C039,Low,Economics,6,L3,V2,R1,我收集了某商品10年的价格和销量数据。我想做需求弹性分析。请指导如何用对数线性模型回归，并解释弹性系数的含义。
+C040,Low,Electronic Eng,1,L2,V2,,如何计算RC低通滤波器的截止频率？步骤是什么？
+C040,Low,Electronic Eng,2,L3,V2,R2,"我设计了一个二阶巴特沃斯滤波器，R=1k, C=33nF。请验证截止频率是否正确。"
+C040,Low,Electronic Eng,3,L2,V2,,解释一下什么是‘虚短’和‘虚断’。
+C040,Low,Electronic Eng,4,L3,V2,R2,这是我的PCB布局截图，请指出可能存在的信号完整性问题。
+C040,Low,Electronic Eng,5,L4,V3,R3,你推荐的LM358在5V单电源下能输出满幅吗？请查数据手册确认。
+C040,Low,Electronic Eng,6,L2,V2,R2,我的STM32程序在中断中卡死。我怀疑是优先级问题。请说明如何设置NVIC优先级分组和抢占优先级。
+C041,Low,Literature,1,L3,V2,R2,我写了一句：‘月光如水，静静地流泻在窗棂上。’请评价并帮我修改得更有意境。
+C041,Low,Literature,2,L2,V2,,分析林黛玉的性格特点，列出三点。
+C041,Low,Literature,3,L3,V2,R2,我认为哈姆雷特的犹豫源于宗教束缚，你对此有什么反驳？
+C041,Low,Literature,4,L2,V2,R2,《老人与海》中的象征手法有哪些？
+C041,Low,Literature,5,L3,V3,R3,我写了一句：‘月光如水，静静地流泻在窗棂上。’请评价并帮我修改得更有意境。
+C041,Low,Literature,6,L3,V2,R1,我在分析哈姆雷特的“延宕”问题。请帮我对比精神分析批评和新历史主义批评的不同解释框架。
+C042,Low,Mathematics,1,L2,V2,,解释一下泰勒展开的原理。
+C042,Low,Mathematics,2,L3,V2,R2,这个级数收敛吗？我用比值判别法得到ρ=1，接下来怎么办？
+C042,Low,Mathematics,3,L2,V2,,什么是条件概率？举例说明。
+C042,Low,Mathematics,4,L3,V2,R2,我算的极限是0，但答案说极限不存在。步骤：……请帮我检查。
+C042,Low,Mathematics,5,L4,V3,R3,你证明中假设了函数连续，但题目条件只给可积，这个假设成立吗？
+C042,Low,Mathematics,6,L2,V2,R2,"我需要用拉格朗日乘数法求条件极值。请以一个具体函数f(x,y)=x²+y²约束x+y=1为例，手算全过程。"
+C043,Low,Chemistry,1,L3,V2,R2,我合成了阿司匹林，产率只有65%，可能原因？我的步骤：……。
+C043,Low,Chemistry,2,L2,V2,,如何配平氧化还原反应？步骤是什么？
+C043,Low,Chemistry,3,L3,V2,R2,这个反应机理我画了，但中间体不稳定，请指正。
+C043,Low,Chemistry,4,L2,V2,R2,解释SN1和SN2反应的区别。
+C043,Low,Chemistry,5,L3,V3,R3,我合成了阿司匹林，产率只有65%，可能原因？我的步骤：……。
+C043,Low,Chemistry,6,L3,V3,R3,你解释SN1和SN2时混淆了亲核试剂浓度的影响。请根据实验事实（速率方程）重新区分两种机理，并纠正错误。
+C044,Low,Biology,1,L2,V2,,有丝分裂和减数分裂的区别？列表说明。
+C044,Low,Biology,2,L3,V2,R2,我认为这个进化树的分支有问题，因为线粒体数据不支持，你怎么看？
+C044,Low,Biology,3,L2,V2,,什么是生态位？举例。
+C044,Low,Biology,4,L3,V2,R2,我设计了一个实验验证温度对酶活性的影响，但结果反常。方案：……，哪里出问题了？
+C044,Low,Biology,5,L4,V3,R3,你提到的物种名称在ITIS数据库中查不到，请提供正确的拉丁学名。
+C044,Low,Biology,6,L2,V2,R1,我要做一个关于CRISPR-Cas9的课堂展示。请帮我安排时间：原理介绍（3分钟）、应用案例（5分钟）、伦理讨论（2分钟）。
+C045,Low,History,1,L3,V2,R2,我认为洋务运动促进了民族资本主义，但教材说它阻碍了。你的观点？
+C045,Low,History,2,L2,V2,,分析辛亥革命失败的原因。
+C045,Low,History,3,L3,V2,R2,我的论文观点：冷战始于1947年杜鲁门主义。你有反例吗？
+C045,Low,History,4,L2,V2,R2,罗马帝国分裂的内外因素有哪些？
+C045,Low,History,5,L3,V3,R3,我认为洋务运动促进了民族资本主义，但教材说它阻碍了。你的观点？
+C045,Low,History,6,L3,V2,R2,我找到了一份清末电报档案，显示地方督抚与中央的矛盾。请帮我解读这份档案的关键信息，并联系之前讨论的洋务运动。
+C046,Low,Computer Science,1,L2,V2,,Python中列表和元组的区别是什么？请举例。
+C046,Low,Computer Science,2,L3,V2,R2,这段代码运行结果不对，我怀疑是循环边界问题，你能分析一下吗？
+C046,Low,Computer Science,3,L2,V2,,什么是RESTful API？请分步骤说明。
+C046,Low,Computer Science,4,L3,V2,R2,我设计了数据库表结构：用户表、订单表。请帮我检查是否有冗余。
+C046,Low,Computer Science,5,L4,V3,R3,你刚才给的代码在Python 3.11下会报错吗？有没有兼容性问题？
+C046,Low,Computer Science,6,L2,V2,R1,我需要用Git管理项目。请给出常用命令清单：初始化、分支管理、合并、解决冲突、回退。每个命令附带示例。
+C047,Low,Physics,1,L3,V2,R2,我计算一个滑块在斜面上的受力：mgsinθ - μmgcosθ = ma。但答案不同，我哪里错了？
+C047,Low,Physics,2,L2,V2,,如何推导单摆周期公式？一步步来。
+C047,Low,Physics,3,L3,V2,R2,我的实验数据：摆长1m，周期2.01s，但理论值2.006s。可能误差来源？
+C047,Low,Physics,4,L2,V2,R2,麦克斯韦方程组的物理意义是什么？
+C047,Low,Physics,5,L3,V3,R3,我计算一个滑块在斜面上的受力：mgsinθ - μmgcosθ = ma。但答案不同，我哪里错了？
+C047,Low,Physics,6,L3,V2,R2,我测量了不同长度的单摆周期，数据拟合后得到g=9.78，与当地9.79接近。请帮我计算相对误差和置信区间。
+C048,Low,Economics,1,L2,V2,,什么是机会成本？举个例子。
+C048,Low,Economics,2,L3,V2,R2,我认为通胀预期会导致菲利普斯曲线右移，你同意吗？为什么？
+C048,Low,Economics,3,L2,V2,,供求曲线移动如何影响均衡价格？分步骤说明。
+C048,Low,Economics,4,L3,V2,R2,我的回归模型：Y=2+0.5X，但R方只有0.3。模型有问题吗？
+C048,Low,Economics,5,L4,V3,R3,你引用的CPI数据来自哪一年？国家统计局最新数据是2023年，请核对。
+C048,Low,Economics,6,L4,V3,R3,你之前说供求曲线移动导致价格变化，但忽略了供给弹性为0的情况。请补充这个极端情况的分析，并修正结论。
+C049,Low,Electronic Eng,1,L3,V2,R2,"我设计了一个二阶巴特沃斯滤波器，R=1k, C=33nF。请验证截止频率是否正确。"
+C049,Low,Electronic Eng,2,L2,V2,,如何计算RC低通滤波器的截止频率？步骤是什么？
+C049,Low,Electronic Eng,3,L3,V2,R2,这是我的PCB布局截图，请指出可能存在的信号完整性问题。
+C049,Low,Electronic Eng,4,L2,V2,R2,解释一下什么是‘虚短’和‘虚断’。
+C049,Low,Electronic Eng,5,L3,V3,R3,"我设计了一个二阶巴特沃斯滤波器，R=1k, C=33nF。请验证截止频率是否正确。"
+C049,Low,Electronic Eng,6,L2,V2,R1,我需要用示波器测量开关电源的纹波。请说明探头设置（1x/10x）、耦合方式（AC/DC）、带宽限制、测量位置。
+C050,Low,Literature,1,L2,V2,《老人与海》中的象征手法有哪些？,
+C050,Low,Literature,2,L3,V2,R2,我写了一句：‘月光如水，静静地流泻在窗棂上。’请评价并帮我修改得更有意境。
+C050,Low,Literature,3,L2,V2,,分析林黛玉的性格特点，列出三点。
+C050,Low,Literature,4,L3,V2,R2,我认为哈姆雷特的犹豫源于宗教束缚，你对此有什么反驳？
+C050,Low,Literature,5,L4,V3,R3,你解读的‘采菊东篱下’与陶渊明其他诗作矛盾，请提供文本依据。
+C050,Low,Literature,6,L3,V2,R2,我写了两个论文开头：一个直入主题，一个从场景描写切入。请帮我评估哪个更符合学术规范，并说明理由。
+C051,Low,Mathematics,1,L3,V2,R2,这个级数收敛吗？我用比值判别法得到ρ=1，接下来怎么办？
+C051,Low,Mathematics,2,L2,V2,,什么是条件概率？举例说明。
+C051,Low,Mathematics,3,L3,V2,R2,我算的极限是0，但答案说极限不存在。步骤：……请帮我检查。
+C051,Low,Mathematics,4,L2,V2,R2,解释一下泰勒展开的原理。
+C051,Low,Mathematics,5,L3,V3,R3,这个级数收敛吗？我用比值判别法得到ρ=1，接下来怎么办？
+C051,Low,Mathematics,6,L2,V2,R1,我在学习矩阵的奇异值分解。请用一个2x2矩阵实际计算SVD，展示U、Σ、V的求解过程。
+C052,Low,Chemistry,1,L2,V2,,如何配平氧化还原反应？步骤是什么？
+C052,Low,Chemistry,2,L3,V2,R2,这个反应机理我画了，但中间体不稳定，请指正。
+C052,Low,Chemistry,3,L2,V2,,解释SN1和SN2反应的区别。
+C052,Low,Chemistry,4,L3,V2,R2,我合成了阿司匹林，产率只有65%，可能原因？我的步骤：……。
+C052,Low,Chemistry,5,L4,V3,R3,你给的电负性数值与Pauling原始数据不同，请确认。
+C052,Low,Chemistry,6,L3,V3,R3,你配平的氧化还原反应中，氧原子数不平衡。请重新检查并给出正确的系数，同时标注氧化剂和还原剂。
+C053,Low,Biology,1,L3,V2,R2,我设计了一个实验验证温度对酶活性的影响，但结果反常。方案：……，哪里出问题了？
+C053,Low,Biology,2,L2,V2,,什么是生态位？举例。
+C053,Low,Biology,3,L3,V2,R2,我认为这个进化树的分支有问题，因为线粒体数据不支持，你怎么看？
+C053,Low,Biology,4,L2,V2,R2,有丝分裂和减数分裂的区别？列表说明。
+C053,Low,Biology,5,L3,V3,R3,我设计了一个实验验证温度对酶活性的影响，但结果反常。方案：……，哪里出问题了？
+C053,Low,Biology,6,L2,V2,R2,我观察了不同浓度生长素对根生长的影响。请帮我用Excel绘制剂量-响应曲线，并计算半抑制浓度。
+C054,Low,History,1,L2,V2,,分析辛亥革命失败的原因。
+C054,Low,History,2,L3,V2,R2,我的论文观点：冷战始于1947年杜鲁门主义。你有反例吗？
+C054,Low,History,3,L2,V2,,罗马帝国分裂的内外因素有哪些？
+C054,Low,History,4,L3,V2,R2,我认为洋务运动促进了民族资本主义，但教材说它阻碍了。你的观点？
+C054,Low,History,5,L4,V3,R3,你提到的条约签订年份与《剑桥中国史》不符，请核实。
+C054,Low,History,6,L3,V2,R1,我的论文需要讨论“大分流”问题。请帮我列出彭慕兰、王国斌、黄宗智三人的核心观点对比表。
+C055,Low,Computer Science,1,L3,V2,R2,我的排序算法时间复杂度太高，这是代码……怎样改进？
+C055,Low,Computer Science,2,L2,V2,,Python中列表和元组的区别是什么？请举例。
+C055,Low,Computer Science,3,L3,V2,R2,"我写了一个二分查找，但栈溢出。代码：`def binary_search(arr,target):...` 请帮我看看问题在哪。"
+C055,Low,Computer Science,4,L2,V2,R2,什么是RESTful API？请分步骤说明。
+C055,Low,Computer Science,5,L3,V3,R3,这段代码运行结果不对，我怀疑是循环边界问题，你能分析一下吗？
+C055,Low,Computer Science,6,L4,V3,R3,你建议用BeautifulSoup爬虫，但目标网站是动态渲染的。请改用Selenium并给出处理等待和翻页的代码示例。
+C056,Low,Physics,1,L2,V2,,如何推导单摆周期公式？一步步来。
+C056,Low,Physics,2,L3,V2,R2,我的实验数据：摆长1m，周期2.01s，但理论值2.006s。可能误差来源？
+C056,Low,Physics,3,L2,V2,,麦克斯韦方程组的物理意义是什么？
+C056,Low,Physics,4,L3,V2,R2,我计算一个滑块在斜面上的受力：mgsinθ - μmgcosθ = ma。但答案不同，我哪里错了？
+C056,Low,Physics,5,L4,V3,R3,你给的普朗克常数数值是6.626×10^{-34}，但最新CODATA值是6.62607015×10^{-34}，为什么不一致？
+C056,Low,Physics,6,L2,V2,R2,我想用傅里叶变换分析声音波形。请给出步骤：采样、加窗、FFT、频谱绘制。用Python代码示意。
+C057,Low,Economics,1,L3,V2,R2,我认为通胀预期会导致菲利普斯曲线右移，你同意吗？为什么？
+C057,Low,Economics,2,L2,V2,,什么是机会成本？举个例子。
+C057,Low,Economics,3,L3,V2,R2,我的回归模型：Y=2+0.5X，但R方只有0.3。模型有问题吗？
+C057,Low,Economics,4,L2,V2,R2,供求曲线移动如何影响均衡价格？分步骤说明。
+C057,Low,Economics,5,L3,V3,R3,我认为通胀预期会导致菲利普斯曲线右移，你同意吗？为什么？
+C057,Low,Economics,6,L3,V2,R1,我准备做一个关于最低工资对就业影响的实证研究。请帮我设计计量模型：被解释变量、核心解释变量、控制变量、数据来源。
+C058,Low,Electronic Eng,1,L2,V2,,如何计算RC低通滤波器的截止频率？步骤是什么？
+C058,Low,Electronic Eng,2,L3,V2,R2,这是我的PCB布局截图，请指出可能存在的信号完整性问题。
+C058,Low,Electronic Eng,3,L2,V2,,解释一下什么是‘虚短’和‘虚断’。
+C058,Low,Electronic Eng,4,L3,V2,R2,"我设计了一个二阶巴特沃斯滤波器，R=1k, C=33nF。请验证截止频率是否正确。"
+C058,Low,Electronic Eng,5,L4,V3,R3,你推荐的LM358在5V单电源下能输出满幅吗？请查数据手册确认。
+C058,Low,Electronic Eng,6,L2,V2,R2,我的Altium Designer原理图编译报错“浮空网络”。请解释常见原因及解决方法（至少三种）。
+C059,Low,Literature,1,L3,V2,R2,我认为哈姆雷特的犹豫源于宗教束缚，你对此有什么反驳？
+C059,Low,Literature,2,L2,V2,,《老人与海》中的象征手法有哪些？
+C059,Low,Literature,3,L3,V2,R2,我写了一句：‘月光如水，静静地流泻在窗棂上。’请评价并帮我修改得更有意境。
+C059,Low,Literature,4,L2,V2,R2,分析林黛玉的性格特点，列出三点。
+C059,Low,Literature,5,L3,V3,R3,我认为哈姆雷特的犹豫源于宗教束缚，你对此有什么反驳？
+C059,Low,Literature,6,L3,V2,R1,我在比较李白和杜甫的诗歌风格。请帮我从意象选择、句式特点、情感表达三个维度列出对比要点。
+C060,Low,Mathematics,1,L2,V2,,什么是条件概率？举例说明。
+C060,Low,Mathematics,2,L3,V2,R2,我算的极限是0，但答案说极限不存在。步骤：……请帮我检查。
+C060,Low,Mathematics,3,L2,V2,,解释一下泰勒展开的原理。
+C060,Low,Mathematics,4,L3,V2,R2,这个级数收敛吗？我用比值判别法得到ρ=1，接下来怎么办？
+C060,Low,Mathematics,5,L4,V3,R3,你证明中假设了函数连续，但题目条件只给可积，这个假设成立吗？
+C060,Low,Mathematics,6,L2,V2,R2,我需要用马尔可夫链模拟天气变化。请给定转移矩阵，演示如何计算稳态分布，并解释收敛条件。
+C061,Low,Chemistry,1,L3,V2,R2,这个反应机理我画了，但中间体不稳定，请指正。
+C061,Low,Chemistry,2,L2,V2,,解释SN1和SN2反应的区别。
+C061,Low,Chemistry,3,L3,V2,R2,我合成了阿司匹林，产率只有65%，可能原因？我的步骤：……。
+C061,Low,Chemistry,4,L2,V2,R2,如何配平氧化还原反应？步骤是什么？
+C061,Low,Chemistry,5,L3,V3,R3,这个反应机理我画了，但中间体不稳定，请指正。
+C062,Low,Biology,1,L2,V2,,有丝分裂和减数分裂的区别？列表说明。
+C062,Low,Biology,2,L3,V2,R2,我设计了一个实验验证温度对酶活性的影响，但结果反常。方案：……，哪里出问题了？
+C062,Low,Biology,3,L2,V2,,什么是生态位？举例。
+C062,Low,Biology,4,L3,V2,R2,我认为这个进化树的分支有问题，因为线粒体数据不支持，你怎么看？
+C062,Low,Biology,5,L4,V3,R3,你提到的物种名称在ITIS数据库中查不到，请提供正确的拉丁学名。
+C063,Low,History,1,L3,V2,R2,我的论文观点：冷战始于1947年杜鲁门主义。你有反例吗？
+C063,Low,History,2,L2,V2,,罗马帝国分裂的内外因素有哪些？
+C063,Low,History,3,L3,V2,R2,我认为洋务运动促进了民族资本主义，但教材说它阻碍了。你的观点？
+C063,Low,History,4,L2,V2,R2,分析辛亥革命失败的原因。
+C063,Low,History,5,L3,V3,R3,我的论文观点：冷战始于1947年杜鲁门主义。你有反例吗？
+C064,Low,Computer Science,1,L2,V2,,什么是RESTful API？请分步骤说明。
+C064,Low,Computer Science,2,L3,V2,R2,我设计了数据库表结构：用户表、订单表。请帮我检查是否有冗余。
+C064,Low,Computer Science,3,L2,V2,,如何优化这段SQL查询？先给我思路。
+C064,Low,Computer Science,4,L3,V2,R2,这段代码运行结果不对，我怀疑是循环边界问题，你能分析一下吗？
+C064,Low,Computer Science,5,L4,V3,R3,你建议用Django，但我在官方文档看到Flask更适合轻量级。能提供权威出处吗？
+C065,Low,Physics,1,L3,V2,R2,我的实验数据：摆长1m，周期2.01s，但理论值2.006s。可能误差来源？
+C065,Low,Physics,2,L2,V2,,麦克斯韦方程组的物理意义是什么？
+C065,Low,Physics,3,L3,V2,R2,我计算一个滑块在斜面上的受力：mgsinθ - μmgcosθ = ma。但答案不同，我哪里错了？
+C065,Low,Physics,4,L2,V2,R2,如何推导单摆周期公式？一步步来。
+C065,Low,Physics,5,L3,V3,R3,我的实验数据：摆长1m，周期2.01s，但理论值2.006s。可能误差来源？
+C066,Low,Economics,1,L2,V2,,什么是机会成本？举个例子。
+C066,Low,Economics,2,L3,V2,R2,我的回归模型：Y=2+0.5X，但R方只有0.3。模型有问题吗？
+C066,Low,Economics,3,L2,V2,,供求曲线移动如何影响均衡价格？分步骤说明。
+C066,Low,Economics,4,L3,V2,R2,我认为通胀预期会导致菲利普斯曲线右移，你同意吗？为什么？
+C066,Low,Economics,5,L4,V3,R3,你引用的CPI数据来自哪一年？国家统计局最新数据是2023年，请核对。
+C067,Low,Electronic Eng,1,L3,V2,R2,这是我的PCB布局截图，请指出可能存在的信号完整性问题。
+C067,Low,Electronic Eng,2,L2,V2,,解释一下什么是‘虚短’和‘虚断’。
+C067,Low,Electronic Eng,3,L3,V2,R2,"我设计了一个二阶巴特沃斯滤波器，R=1k, C=33nF。请验证截止频率是否正确。"
+C067,Low,Electronic Eng,4,L2,V2,R2,如何计算RC低通滤波器的截止频率？步骤是什么？
+C067,Low,Electronic Eng,5,L3,V3,R3,这是我的PCB布局截图，请指出可能存在的信号完整性问题。
+C068,Low,Literature,1,L2,V2,,分析林黛玉的性格特点，列出三点。
+C068,Low,Literature,2,L3,V2,R2,我认为哈姆雷特的犹豫源于宗教束缚，你对此有什么反驳？
+C068,Low,Literature,3,L2,V2,,《老人与海》中的象征手法有哪些？
+C068,Low,Literature,4,L3,V2,R2,我写了一句：‘月光如水，静静地流泻在窗棂上。’请评价并帮我修改得更有意境。
+C068,Low,Literature,5,L4,V3,R3,你解读的‘采菊东篱下’与陶渊明其他诗作矛盾，请提供文本依据。
+C069,Low,Mathematics,1,L3,V2,R2,我算的极限是0，但答案说极限不存在。步骤：……请帮我检查。
+C069,Low,Mathematics,2,L2,V2,,解释一下泰勒展开的原理。
+C069,Low,Mathematics,3,L3,V2,R2,这个级数收敛吗？我用比值判别法得到ρ=1，接下来怎么办？
+C069,Low,Mathematics,4,L2,V2,R2,什么是条件概率？举例说明。
+C069,Low,Mathematics,5,L3,V3,R3,我算的极限是0，但答案说极限不存在。步骤：……请帮我检查。
+C070,Low,Chemistry,1,L2,V2,,如何配平氧化还原反应？步骤是什么？
+C070,Low,Chemistry,2,L3,V2,R2,这个反应机理我画了，但中间体不稳定，请指正。
+C070,Low,Chemistry,3,L2,V2,,解释SN1和SN2反应的区别。
+C070,Low,Chemistry,4,L3,V2,R2,我合成了阿司匹林，产率只有65%，可能原因？我的步骤：……。
+C070,Low,Chemistry,5,L4,V3,R3,你给的电负性数值与Pauling原始数据不同，请确认。
+C071,Low,Biology,1,L3,V2,R2,我设计了一个实验验证温度对酶活性的影响，但结果反常。方案：……，哪里出问题了？
+C071,Low,Biology,2,L2,V2,,什么是生态位？举例。
+C071,Low,Biology,3,L3,V2,R2,我认为这个进化树的分支有问题，因为线粒体数据不支持，你怎么看？
+C071,Low,Biology,4,L2,V2,R2,有丝分裂和减数分裂的区别？列表说明。
+C071,Low,Biology,5,L3,V3,R3,我设计了一个实验验证温度对酶活性的影响，但结果反常。方案：……，哪里出问题了？
+C072,Low,History,1,L2,V2,,分析辛亥革命失败的原因。
+C072,Low,History,2,L3,V2,R2,我的论文观点：冷战始于1947年杜鲁门主义。你有反例吗？
+C072,Low,History,3,L2,V2,,罗马帝国分裂的内外因素有哪些？
+C072,Low,History,4,L3,V2,R2,我认为洋务运动促进了民族资本主义，但教材说它阻碍了。你的观点？
+C072,Low,History,5,L4,V3,R3,你提到的条约签订年份与《剑桥中国史》不符，请核实。
+C073,Low,Computer Science,1,L3,V2,R2,"我写了一个二分查找，但栈溢出。代码：`def binary_search(arr,target):...` 请帮我看看问题在哪。"
+C073,Low,Computer Science,2,L2,V2,,递归和迭代哪个效率更高？能讲一下原理吗？
+C073,Low,Computer Science,3,L3,V2,R2,我的排序算法时间复杂度太高，这是代码……怎样改进？
+C073,Low,Computer Science,4,L2,V2,R2,如何优化这段SQL查询？先给我思路。
+C073,Low,Computer Science,5,L3,V3,R3,"我写了一个二分查找，但栈溢出。代码：`def binary_search(arr,target):...` 请帮我看看问题在哪。"
+C074,Low,Physics,1,L2,V2,,如何推导单摆周期公式？一步步来。
+C074,Low,Physics,2,L3,V2,R2,我计算一个滑块在斜面上的受力：mgsinθ - μmgcosθ = ma。但答案不同，我哪里错了？
+C074,Low,Physics,3,L2,V2,,麦克斯韦方程组的物理意义是什么？
+C074,Low,Physics,4,L3,V2,R2,我的实验数据：摆长1m，周期2.01s，但理论值2.006s。可能误差来源？
+C074,Low,Physics,5,L4,V3,R3,你给的普朗克常数数值是6.626×10^{-34}，但最新CODATA值是6.62607015×10^{-34}，为什么不一致？
+C075,Low,Economics,1,L3,V2,R2,我的回归模型：Y=2+0.5X，但R方只有0.3。模型有问题吗？
+C075,Low,Economics,2,L2,V2,,供求曲线移动如何影响均衡价格？分步骤说明。
+C075,Low,Economics,3,L3,V2,R2,我认为通胀预期会导致菲利普斯曲线右移，你同意吗？为什么？
+C075,Low,Economics,4,L2,V2,R2,什么是机会成本？举个例子。
+C075,Low,Economics,5,L3,V3,R3,我的回归模型：Y=2+0.5X，但R方只有0.3。模型有问题吗？
+E001,High,Computer Science,1,L1,V0,,写一段Python代码实现快速排序。
+E001,High,Computer Science,2,L1,V0,,给我一个爬取网页图片的完整脚本。
+E001,High,Computer Science,3,L1,V0,,用SQL查询每个部门平均工资，代码直接给我。
+E001,High,Computer Science,4,L2,V0,,解释一下什么是‘闭包’，写个例子。
+E001,High,Computer Science,5,L2,V2,R2,你给的快速排序代码我运行了，大数据量时栈溢出。我改成非递归版本后正常。你能解释一下尾递归优化吗？
+E002,High,Physics,1,L1,V0,,解释一下量子纠缠。
+E002,High,Physics,2,L1,V0,,写出薛定谔方程。
+E002,High,Physics,3,L1,V1,,光的波粒二象性是什么？
+E002,High,Physics,4,L2,V0,,如何推导单摆周期公式？一步步来。
+E002,High,Physics,5,L1,V1,R2,我刚才的回答你给的解释好像不太对，我重新查了一下课本，现在理解清楚了。让我再确认一下：量子纠缠真的能超光速通信吗？
+E003,High,Economics,1,L1,V0,,解释一下‘边际效用递减’。
+E003,High,Economics,2,L1,V0,,写出GDP的三种计算方法。
+E003,High,Economics,3,L1,V0,,供求曲线移动如何影响均衡价格？分步骤说明。
+E003,High,Economics,4,L1,V1,,什么是机会成本？举个例子。
+E003,High,Economics,5,L1,V1,R1,我需要写一篇关于“通货膨胀与失业关系”的短评，请先帮我列出三个主要理论观点，我会自己查实证数据。
+E004,High,Electronic Eng,1,L1,V0,,给一个用555定时器产生1kHz方波的电路图，标出元件值。
+E004,High,Electronic Eng,2,L1,V0,,写一段Arduino代码读取DHT11温湿度。
+E004,High,Electronic Eng,3,L1,V0,,LM358音频放大电路图，直接给我。
+E004,High,Electronic Eng,4,L1,V1,,给一个用555定时器产生1kHz方波的电路图，标出元件值。
+E004,High,Electronic Eng,5,L2,V2,R1,我需要用555定时器设计一个可调占空比的方波发生器，请先给我整体思路，我自己画电路后再请你检查。
+E005,High,Literature,1,L1,V0,,总结《红楼梦》的主题。
+E005,High,Literature,2,L1,V0,,写一段关于‘孤独’的排比句。
+E005,High,Literature,3,L1,V0,,分析林黛玉的性格特点，列出三点。
+E005,High,Literature,4,L2,V0,,总结《红楼梦》的主题。
+E005,High,Literature,5,L2,V2,R3,你总结的《红楼梦》主题缺少“女性悲剧”这一层，我查了脂砚斋评本，确认是重要线索。谢谢你的提醒。
+E006,High,Mathematics,1,L1,V0,,"求解微分方程：y'' + y = 0, y(0)=1, y'(0)=0。"
+E006,High,Mathematics,2,L1,V0,,"计算矩阵[[1,2],[3,4]]的特征值。"
+E006,High,Mathematics,3,L1,V0,,解释一下泰勒展开的原理。
+E006,High,Mathematics,4,L1,V1,,"求解微分方程：y'' + y = 0, y(0)=1, y'(0)=0。"
+E006,High,Mathematics,5,L3,V2,R2,你给的微分方程解法中用了特征方程，但我用拉普拉斯变换得到不同结果。我两种都算了一遍，发现你漏了初始条件，请核对。
+E006,High,Mathematics,6,L1,V1,R3,你算的特征值是对的，但我发现特征向量的方向反了，我重新推导了一遍，确认是符号问题。谢谢。
+E007,High,Chemistry,1,L1,V0,,写出苯的凯库勒结构式。
+E007,High,Chemistry,2,L1,V0,,什么是化学平衡？一句话解释。
+E007,High,Chemistry,3,L1,V0,,如何配平氧化还原反应？步骤是什么？
+E007,High,Chemistry,4,L2,V0,,解释SN1和SN2反应的区别。
+E007,High,Chemistry,5,L1,V0,R2,之前你给的配平步骤我试了一下，第三步有点乱，我重新整理了一下思路，现在明白了。
+E008,High,Biology,1,L1,V0,,解释光合作用的过程。
+E008,High,Biology,2,L1,V0,,DNA转录和翻译的区别是什么？
+E008,High,Biology,3,L1,V0,,有丝分裂和减数分裂的区别？列表说明。
+E008,High,Biology,4,L1,V1,,解释光合作用的过程。
+E008,High,Biology,5,L1,V1,R1,我计划做一个“光合作用实验”的微课，请先帮我列出所需材料和步骤，我会自己拍摄视频。
+E009,High,History,1,L1,V0,,列出甲午战争的主要战役。
+E009,High,History,2,L1,V0,,秦始皇统一六国的顺序是什么？
+E009,High,History,3,L1,V0,,分析辛亥革命失败的原因。
+E009,High,History,4,L1,V1,,秦始皇统一六国的顺序是什么？
+E009,High,History,5,L2,V1,R3,你分析辛亥革命失败的原因只提到了外部因素，我觉得内部领导力不足也很关键。我们讨论后我决定采纳综合视角。
+E010,High,Computer Science,1,L1,V0,,写一段Python代码实现快速排序。
+E010,High,Computer Science,2,L1,V0,,给我一个爬取网页图片的完整脚本。
+E010,High,Computer Science,3,L2,V0,,递归和迭代哪个效率更高？能讲一下原理吗？
+E010,High,Computer Science,4,L1,V0,,用SQL查询每个部门平均工资，代码直接给我。
+E010,High,Computer Science,5,L2,V2,R2,你给的爬虫代码被网站封了，我加了随机User-Agent和延时后解决。你觉得还需要加代理池吗？
+E011,High,Physics,1,L1,V0,,解释一下量子纠缠。
+E011,High,Physics,2,L1,V0,,写出薛定谔方程。
+E011,High,Physics,3,L1,V0,,光的波粒二象性是什么？
+E011,High,Physics,4,L1,V1,,解释一下量子纠缠。
+E011,High,Physics,5,L1,V0,R1,我计划先用你给的薛定谔方程做基础，然后再去读一下量子力学的教材，不懂再问你。
+E012,High,Economics,1,L1,V0,,解释一下‘边际效用递减’。
+E012,High,Economics,2,L1,V0,,写出GDP的三种计算方法。
+E012,High,Economics,3,L1,V0,,供求曲线移动如何影响均衡价格？分步骤说明。
+E012,High,Economics,4,L1,V0,R3,你写的GDP三种计算方法中，收入法漏了“折旧”，我已自行补充。
+E013,High,Electronic Eng,1,L1,V0,,给一个用555定时器产生1kHz方波的电路图，标出元件值。
+E013,High,Electronic Eng,2,L1,V0,,写一段Arduino代码读取DHT11温湿度。
+E013,High,Electronic Eng,3,L1,V0,,LM358音频放大电路图，直接给我。
+E013,High,Electronic Eng,4,L1,V1,,给一个用555定时器产生1kHz方波的电路图，标出元件值。
+E013,High,Electronic Eng,5,L3,V2,R2,我按照你给的Arduino代码改了引脚，但还是读不到DHT11。我已经用万用表测了供电5V正常，怀疑是库版本问题，你怎么看？
+E014,High,Literature,1,L1,V0,,总结《红楼梦》的主题。
+E014,High,Literature,2,L1,V0,,写一段关于‘孤独’的排比句。
+E014,High,Literature,3,L1,V0,,分析林黛玉的性格特点，列出三点。
+E014,High,Literature,4,L2,V0,,写一段关于‘孤独’的排比句。
+E014,High,Literature,5,L3,V2,R2,你分析的林黛玉性格中，“幽默感”这一点我之前没想到。我找到了她调侃刘姥姥的原文，可以引用到论文里。谢谢。
+E015,High,Mathematics,1,L1,V0,,"求解微分方程：y'' + y = 0, y(0)=1, y'(0)=0。"
+E015,High,Mathematics,2,L1,V0,,"计算矩阵[[1,2],[3,4]]的特征值。"
+E015,High,Mathematics,3,L1,V0,,解释一下泰勒展开的原理。
+E015,High,Mathematics,4,L1,V1,,"求解微分方程：y'' + y = 0, y(0)=1, y'(0)=0。"
+E015,High,Mathematics,5,L1,V1,R3,你算的特征值是对的，但我发现特征向量的方向反了，我重新推导了一遍，确认是符号问题。谢谢。
+E015,High,Mathematics,6,L1,V0,R3,你算的微分方程解是对的，但常数项符号我验算发现反了，我重新推导后确认是你写错了，已修正。
+E016,High,Chemistry,1,L1,V0,,写出苯的凯库勒结构式。
+E016,High,Chemistry,2,L1,V0,,什么是化学平衡？一句话解释。
+E016,High,Chemistry,3,L1,V0,,如何配平氧化还原反应？步骤是什么？
+E016,High,Chemistry,4,L1,V1,R1,我需要设计一个简单的原电池实验，请先帮我列出电极材料和电解质，我会自己搭建。
+E016,High,Chemistry,5,L2,V2,R2,你解释的化学平衡我理解了，但我做了一个练习题发现答案不对，我把我写的步骤发给你，帮我看看哪里出错了。
+E017,High,Biology,1,L1,V0,,解释光合作用的过程。
+E017,High,Biology,2,L1,V0,,DNA转录和翻译的区别是什么？
+E017,High,Biology,3,L1,V0,,有丝分裂和减数分裂的区别？列表说明。
+E017,High,Biology,4,L1,V1,,解释光合作用的过程。
+E017,High,Biology,5,L2,V2,R2,你解释的光合作用光反应和暗反应我懂了，但我分不清ATP和NADPH的产生场所。我画了一个叶绿体结构图，你帮我标注？
+E018,High,History,1,L1,V0,,列出甲午战争的主要战役。
+E018,High,History,2,L1,V0,,秦始皇统一六国的顺序是什么？
+E018,High,History,3,L1,V0,,分析辛亥革命失败的原因。
+E018,High,History,4,L2,V0,R1,我的论文需要三个主要论点，我已经确定了两个，第三个想请你提供思路，我会自己查资料补充。
+E019,High,Computer Science,1,L1,V0,,写一段Python代码实现快速排序。
+E019,High,Computer Science,2,L1,V0,,给我一个爬取网页图片的完整脚本。
+E019,High,Computer Science,3,L2,V0,,什么是RESTful API？请分步骤说明。
+E019,High,Computer Science,4,L1,V0,R3,你给的SQL查询用了子查询，性能很差。我改写成JOIN后快了10倍，建议你以后优先推荐JOIN。
+E020,High,Physics,1,L1,V0,,解释一下量子纠缠。
+E020,High,Physics,2,L1,V0,,写出薛定谔方程。
+E020,High,Physics,3,L1,V0,,光的波粒二象性是什么？
+E020,High,Physics,4,L1,V1,,解释一下量子纠缠。
+E020,High,Physics,5,L1,V0,R2,刚才问的波粒二象性，我反思了一下，其实我真正不懂的是“观测导致坍缩”这个说法，能再解释吗？
+E021,High,Economics,1,L1,V0,,解释一下‘边际效用递减’。
+E021,High,Economics,2,L1,V0,,写出GDP的三种计算方法。
+E021,High,Economics,3,L1,V0,,供求曲线移动如何影响均衡价格？分步骤说明。
+E021,High,Economics,4,L2,V1,R1,我的课题是“最低工资法对就业的影响”，请先帮我列出支持与反对两派的经典论文作者，我会自己去读。
+E022,High,Electronic Eng,1,L1,V0,,给一个用555定时器产生1kHz方波的电路图，标出元件值。
+E022,High,Electronic Eng,2,L1,V0,,写一段Arduino代码读取DHT11温湿度。
+E022,High,Electronic Eng,3,L1,V0,,LM358音频放大电路图，直接给我。
+E022,High,Electronic Eng,4,L1,V1,,给一个用555定时器产生1kHz方波的电路图，标出元件值。
+E022,High,Electronic Eng,5,L1,V1,R1,我需要设计一个低功耗蓝牙模块的电路，先帮我列出需要的关键元件清单，我按清单准备。
+E023,High,Literature,1,L1,V0,,总结《红楼梦》的主题。
+E023,High,Literature,2,L1,V0,,写一段关于‘孤独’的排比句。
+E023,High,Literature,3,L1,V0,,分析林黛玉的性格特点，列出三点。
+E023,High,Literature,4,L2,V0,,写一段关于‘孤独’的排比句。
+E023,High,Literature,5,L1,V0,R2,我发现自己写的排比句太生硬，刚才又改了一版，情感更自然了。你能再评价一下吗？
+E024,High,Mathematics,1,L1,V0,,"求解微分方程：y'' + y = 0, y(0)=1, y'(0)=0。"
+E024,High,Mathematics,2,L1,V0,,"计算矩阵[[1,2],[3,4]]的特征值。"
+E024,High,Mathematics,3,L1,V0,,解释一下泰勒展开的原理。
+E024,High,Mathematics,4,L1,V1,,"求解微分方程：y'' + y = 0, y(0)=1, y'(0)=0。"
+E024,High,Mathematics,5,L3,V2,R2,你给的特征值计算正确，但我发现你用的方法是直接解特征多项式，对于3x3矩阵太繁琐。我改用幂迭代法算了一遍，结果一致，但效率更高。
+E024,High,Mathematics,6,L3,V2,R2,你给的微分方程解法中用了特征方程，但我用拉普拉斯变换得到不同结果。我两种都算了一遍，发现你漏了初始条件，请核对。
+E025,High,Chemistry,1,L1,V0,,写出苯的凯库勒结构式。
+E025,High,Chemistry,2,L1,V0,,什么是化学平衡？一句话解释。
+E025,High,Chemistry,3,L1,V0,,如何配平氧化还原反应？步骤是什么？
+E025,High,Chemistry,4,L2,V2,R2,你解释的化学平衡我理解了，但我做了一个练习题发现答案不对，我把我写的步骤发给你，帮我看看哪里出错了。
+E025,High,Chemistry,5,L1,V1,R3,你之前说苯环是单双键交替，但我在最新教材看到是离域大π键，我理解你的说法过时了，请更新。
+E026,High,Biology,1,L1,V0,,解释光合作用的过程。
+E026,High,Biology,2,L1,V0,,DNA转录和翻译的区别是什么？
+E026,High,Biology,3,L1,V0,,有丝分裂和减数分裂的区别？列表说明。
+E026,High,Biology,4,L1,V1,,解释光合作用的过程。
+E026,High,Biology,5,L1,V1,R1,我需要做一个“细胞分裂”的3D模型，请先帮我列出需要表示的结构（染色体、纺锤体等），我会自己建模。
+E027,High,History,1,L1,V0,,列出甲午战争的主要战役。
+E027,High,History,2,L1,V0,,秦始皇统一六国的顺序是什么？
+E027,High,History,3,L1,V0,,分析辛亥革命失败的原因。
+E027,High,History,4,L1,V0,R3,你列出的甲午战争战役顺序有误，我对照了《中国近代史》修正了。以后请提供可靠来源。
+E028,High,Computer Science,1,L1,V0,,写一段Python代码实现快速排序。
+E028,High,Computer Science,2,L1,V0,,给我一个爬取网页图片的完整脚本。
+E028,High,Computer Science,3,L2,V0,,如何优化这段SQL查询？先给我思路。
+E028,High,Computer Science,4,L2,V2,R2,你给的SQL优化建议我试了，加了索引后查询从5秒降到0.1秒。你能解释一下B+树索引的原理吗？我理解了才能用好。
+E029,High,Physics,1,L1,V0,,解释一下量子纠缠。
+E029,High,Physics,2,L1,V0,,写出薛定谔方程。
+E029,High,Physics,3,L1,V0,,光的波粒二象性是什么？
+E029,High,Physics,4,L1,V1,,解释一下量子纠缠。
+E029,High,Physics,5,L1,V0,R1,我计划用三天时间把量子力学基础搞懂，每天先问你五个概念，然后我自己做习题。
+E030,High,Economics,1,L1,V0,,解释一下‘边际效用递减’。
+E030,High,Economics,2,L1,V0,,写出GDP的三种计算方法。
+E030,High,Economics,3,L1,V0,,供求曲线移动如何影响均衡价格？分步骤说明。
+E030,High,Economics,4,L1,V0,R3,你解释的“边际效用递减”例子中，把“喝水”和“吃面包”混用了，逻辑不一致。我已自己改成了连续喝水的例子。
+E031,High,Electronic Eng,1,L1,V0,,给一个用555定时器产生1kHz方波的电路图，标出元件值。
+E031,High,Electronic Eng,2,L1,V0,,写一段Arduino代码读取DHT11温湿度。
+E031,High,Electronic Eng,3,L1,V0,,LM358音频放大电路图，直接给我。
+E031,High,Electronic Eng,4,L1,V1,,给一个用555定时器产生1kHz方波的电路图，标出元件值。
+E031,High,Electronic Eng,5,L3,V2,R2,你给的555电路图我焊好后频率不对，我用示波器测了，实际只有800Hz。我怀疑是电容精度问题，已经换了CBB电容，你再帮我算一下理论值。
+E032,High,Literature,1,L1,V0,,总结《红楼梦》的主题。
+E032,High,Literature,2,L1,V0,,写一段关于‘孤独’的排比句。
+E032,High,Literature,3,L1,V0,,分析林黛玉的性格特点，列出三点。
+E032,High,Literature,4,L2,V0,,写一段关于‘孤独’的排比句。
+E032,High,Literature,5,L3,V2,R2,你分析的《红楼梦》主题中，“色空观”很重要，但我发现后四十回的处理与判词矛盾。你能提供一些红学家的争论观点吗？
+E033,High,Mathematics,1,L1,V0,,"求解微分方程：y'' + y = 0, y(0)=1, y'(0)=0。"
+E033,High,Mathematics,2,L1,V0,,"计算矩阵[[1,2],[3,4]]的特征值。"
+E033,High,Mathematics,3,L1,V0,,解释一下泰勒展开的原理。
+E033,High,Mathematics,4,L1,V1,,"求解微分方程：y'' + y = 0, y(0)=1, y'(0)=0。"
+E033,High,Mathematics,5,L1,V0,R1,我接下来要复习线性代数，请你每天给我出一道证明题，我会自己写证明过程然后请你批改。
+E033,High,Mathematics,6,L3,V2,R2,你给的特征值计算正确，但我发现你用的方法是直接解特征多项式，对于3x3矩阵太繁琐。我改用幂迭代法算了一遍，结果一致，但效率更高。
+E034,High,Chemistry,1,L1,V0,,写出苯的凯库勒结构式。
+E034,High,Chemistry,2,L1,V0,,什么是化学平衡？一句话解释。
+E034,High,Chemistry,3,L1,V0,,如何配平氧化还原反应？步骤是什么？
+E034,High,Chemistry,4,L1,V1,R3,你之前说苯环是单双键交替，但我在最新教材看到是离域大π键，我理解你的说法过时了，请更新。
+E034,High,Chemistry,5,L2,V2,R2,你给的氧化还原配平方法我试了，但遇到半反应有氧原子时不会配平。我查了资料发现要用H+/H2O法，你能示范一个例子吗？
+E035,High,Biology,1,L1,V0,,解释光合作用的过程。
+E035,High,Biology,2,L1,V0,,DNA转录和翻译的区别是什么？
+E035,High,Biology,3,L1,V0,,有丝分裂和减数分裂的区别？列表说明。
+E035,High,Biology,4,L1,V1,,解释光合作用的过程。
+E035,High,Biology,5,L2,V2,R2,你解释的有丝分裂和减数分裂区别我懂了，但我在显微镜下总是分不清。我总结了一个对比表，你帮我验证一下关键特征？
+E036,High,History,1,L1,V0,,列出甲午战争的主要战役。
+E036,High,History,2,L1,V0,,秦始皇统一六国的顺序是什么？
+E036,High,History,3,L1,V0,,分析辛亥革命失败的原因。
+E036,High,History,4,L2,V0,R1,我要写一篇关于罗马帝国衰亡的essay，请你先帮我列出五个可能的原因，我会逐一查证。
+E037,High,Computer Science,1,L1,V0,,写一段Python代码实现快速排序。
+E037,High,Computer Science,2,L1,V0,,给我一个爬取网页图片的完整脚本。
+E037,High,Computer Science,3,L2,V0,,解释一下什么是‘闭包’，写个例子。
+E037,High,Computer Science,4,L1,V1,R3,你给的“闭包”例子中，变量作用域解释有误，我查了MDN文档后纠正了。以后请以标准文档为准。
+E038,High,Physics,1,L1,V0,,解释一下量子纠缠。
+E038,High,Physics,2,L1,V0,,写出薛定谔方程。
+E038,High,Physics,3,L1,V0,,光的波粒二象性是什么？
+E038,High,Physics,4,L1,V1,,解释一下量子纠缠。
+E038,High,Physics,5,L1,V0,R2,我发现自己总是混淆“波函数”和“概率幅”，刚才又查了一下，现在清楚了：波函数的模平方才是概率。
+E039,High,Economics,1,L1,V0,,解释一下‘边际效用递减’。
+E039,High,Economics,2,L1,V0,,写出GDP的三种计算方法。
+E039,High,Economics,3,L1,V0,,供求曲线移动如何影响均衡价格？分步骤说明。
+E039,High,Economics,4,L2,V0,R1,我需要做一个关于“汇率与国际贸易”的实证分析，请先帮我列出需要的数据变量，我会自己去世界银行下载。
+E040,High,Electronic Eng,1,L1,V0,,给一个用555定时器产生1kHz方波的电路图，标出元件值。
+E040,High,Electronic Eng,2,L1,V0,,写一段Arduino代码读取DHT11温湿度。
+E040,High,Electronic Eng,3,L1,V0,,LM358音频放大电路图，直接给我。
+E040,High,Electronic Eng,4,L1,V1,,给一个用555定时器产生1kHz方波的电路图，标出元件值。
+E040,High,Electronic Eng,5,L1,V1,R1,我的项目需要用到I2C通信，请先给出标准接线图和初始化代码框架，我按你的框架自己编写。
+E041,High,Literature,1,L1,V0,,总结《红楼梦》的主题。
+E041,High,Literature,2,L1,V0,,写一段关于‘孤独’的排比句。
+E041,High,Literature,3,L1,V0,,分析林黛玉的性格特点，列出三点。
+E041,High,Literature,4,L2,V0,,写一段关于‘孤独’的排比句。
+E041,High,Literature,5,L1,V0,R2,我反思了我对“孤独”排比句的写作，其实真正缺乏的是具体意象，我已经加入“路灯”“影子”等，效果好多了。
+E042,High,Mathematics,1,L1,V0,,"求解微分方程：y'' + y = 0, y(0)=1, y'(0)=0。"
+E042,High,Mathematics,2,L1,V0,,"计算矩阵[[1,2],[3,4]]的特征值。"
+E042,High,Mathematics,3,L1,V0,,解释一下泰勒展开的原理。
+E042,High,Mathematics,4,L1,V1,,"求解微分方程：y'' + y = 0, y(0)=1, y'(0)=0。"
+E042,High,Mathematics,5,L3,V2,R2,你给的泰勒展开式我验算发现余项符号错了，我重新推导了拉格朗日余项，确认是正负号问题。谢谢指出。
+E042,High,Mathematics,6,L1,V0,R1,我接下来要复习线性代数，请你每天给我出一道证明题，我会自己写证明过程然后请你批改。
+E043,High,Chemistry,1,L1,V0,,写出苯的凯库勒结构式。
+E043,High,Chemistry,2,L1,V0,,什么是化学平衡？一句话解释。
+E043,High,Chemistry,3,L1,V0,,如何配平氧化还原反应？步骤是什么？
+E043,High,Chemistry,4,L2,V2,R2,你给的氧化还原配平方法我试了，但遇到半反应有氧原子时不会配平。我查了资料发现要用H+/H2O法，你能示范一个例子吗？
+E043,High,Chemistry,5,L1,V1,R3,你写的苯的凯库勒结构没有标出氢原子，初学者容易误解。我已自己补全，下次请规范。
+E044,High,Biology,1,L1,V0,,解释光合作用的过程。
+E044,High,Biology,2,L1,V0,,DNA转录和翻译的区别是什么？
+E044,High,Biology,3,L1,V0,,有丝分裂和减数分裂的区别？列表说明。
+E044,High,Biology,4,L1,V1,,解释光合作用的过程。
+E044,High,Biology,5,L1,V1,R1,我计划做一个“酶活性实验”的预实验，请先帮我列出需要控制的变量（温度、pH等），我会自己设计对照组。
+E045,High,History,1,L1,V0,,列出甲午战争的主要战役。
+E045,High,History,2,L1,V0,,秦始皇统一六国的顺序是什么？
+E045,High,History,3,L1,V0,,分析辛亥革命失败的原因。
+E045,High,History,4,L1,V0,R3,你提到的“杜鲁门主义”日期与我在《剑桥冷战史》读到的不一致，我已采用书本日期，请核实你的数据库。
+E046,High,Computer Science,1,L1,V0,,写一段Python代码实现快速排序。
+E046,High,Computer Science,2,L1,V0,,给我一个爬取网页图片的完整脚本。
+E046,High,Computer Science,3,L2,V0,,递归和迭代哪个效率更高？能讲一下原理吗？
+E046,High,Computer Science,4,L2,V2,R2,你给的递归与迭代比较我懂了，但我写了一个斐波那契数列，递归版本太慢。我改用动态规划后很快，你能讲讲记忆化搜索吗？
+E047,High,Physics,1,L1,V0,,解释一下量子纠缠。
+E047,High,Physics,2,L1,V0,,写出薛定谔方程。
+E047,High,Physics,3,L1,V0,,光的波粒二象性是什么？
+E047,High,Physics,4,L1,V1,,解释一下量子纠缠。
+E047,High,Physics,5,L1,V0,R1,我决定先学完经典力学再进入量子力学，今天请你帮我规划一下学习路径。
+E048,High,Economics,1,L1,V0,,解释一下‘边际效用递减’。
+E048,High,Economics,2,L1,V0,,写出GDP的三种计算方法。
+E048,High,Economics,3,L1,V0,,供求曲线移动如何影响均衡价格？分步骤说明。
+E048,High,Economics,4,L1,V0,R3,你写的GDP计算公式中，净出口是出口减进口，你写反了。我已在我的笔记中更正。
+E049,High,Electronic Eng,1,L1,V0,,给一个用555定时器产生1kHz方波的电路图，标出元件值。
+E049,High,Electronic Eng,2,L1,V0,,写一段Arduino代码读取DHT11温湿度。
+E049,High,Electronic Eng,3,L1,V0,,LM358音频放大电路图，直接给我。
+E049,High,Electronic Eng,4,L1,V1,,给一个用555定时器产生1kHz方波的电路图，标出元件值。
+E049,High,Electronic Eng,5,L3,V2,R2,你给的LM358电路在单电源下输出失真，我用双电源试了正常。我查了datasheet，原来LM358输出级不是轨到轨。你能推荐一个轨到轨的运放吗？
+E050,High,Literature,1,L1,V0,,总结《红楼梦》的主题。
+E050,High,Literature,2,L1,V0,,写一段关于‘孤独’的排比句。
+E050,High,Literature,3,L1,V0,,分析林黛玉的性格特点，列出三点。
+E050,High,Literature,4,L2,V0,,写一段关于‘孤独’的排比句。
+E050,High,Literature,5,L2,V1,R1,我需要写一篇关于“《老人与海》中的象征主义”的论文，请先帮我列出三个主要的象征物（大海、鲨鱼、马林鱼），我会自己分析。
+E051,High,Mathematics,1,L1,V0,,"求解微分方程：y'' + y = 0, y(0)=1, y'(0)=0。"
+E051,High,Mathematics,2,L1,V0,,"计算矩阵[[1,2],[3,4]]的特征值。"
+E051,High,Mathematics,3,L1,V0,,解释一下泰勒展开的原理。
+E051,High,Mathematics,4,L1,V1,,"求解微分方程：y'' + y = 0, y(0)=1, y'(0)=0。"
+E051,High,Mathematics,5,L3,V2,R2,你给的泰勒展开式我验算发现余项符号错了，我重新推导了拉格朗日余项，确认是正负号问题。谢谢指出。
+E052,High,Chemistry,1,L1,V0,,写出苯的凯库勒结构式。
+E052,High,Chemistry,2,L1,V0,,什么是化学平衡？一句话解释。
+E052,High,Chemistry,3,L1,V0,,如何配平氧化还原反应？步骤是什么？
+E052,High,Chemistry,4,L1,V1,R3,你写的苯的凯库勒结构没有标出氢原子，初学者容易误解。我已自己补全，下次请规范。
+E052,High,Chemistry,5,L2,V2,R2,你解释的SN1和SN2区别我懂了，但我在做题时总是判断错误。我总结了一个判断流程，你帮我看看对不对？
+E053,High,Biology,1,L1,V0,,解释光合作用的过程。
+E053,High,Biology,2,L1,V0,,DNA转录和翻译的区别是什么？
+E053,High,Biology,3,L1,V0,,有丝分裂和减数分裂的区别？列表说明。
+E053,High,Biology,4,L1,V1,,解释光合作用的过程。
+E054,High,History,1,L1,V0,,列出甲午战争的主要战役。
+E054,High,History,2,L1,V0,,秦始皇统一六国的顺序是什么？
+E054,High,History,3,L1,V0,,分析辛亥革命失败的原因。
+E054,High,History,4,L2,V0,R1,我需要完成一个关于“冷战起源”的文献综述，请先帮我列出最重要的10篇英文文献，我会去学校数据库下载。
+E055,High,Computer Science,1,L1,V0,,写一段Python代码实现快速排序。
+E055,High,Computer Science,2,L1,V0,,给我一个爬取网页图片的完整脚本。
+E055,High,Computer Science,3,L2,V0,,什么是RESTful API？请分步骤说明。
+E056,High,Physics,1,L1,V0,,解释一下量子纠缠。
+E056,High,Physics,2,L1,V0,,写出薛定谔方程。
+E056,High,Physics,3,L1,V0,,光的波粒二象性是什么？
+E056,High,Physics,4,L1,V1,,解释一下量子纠缠。
+E056,High,Physics,5,L1,V0,R2,我刚才问的问题其实已经懂了，是我表述不清。重新整理后我想问的是：为什么电子自旋不是真的旋转？
+E057,High,Economics,1,L1,V0,,解释一下‘边际效用递减’。
+E057,High,Economics,2,L1,V0,,写出GDP的三种计算方法。
+E057,High,Economics,3,L1,V0,,供求曲线移动如何影响均衡价格？分步骤说明。
+E058,High,Electronic Eng,1,L1,V0,,给一个用555定时器产生1kHz方波的电路图，标出元件值。
+E058,High,Electronic Eng,2,L1,V0,,写一段Arduino代码读取DHT11温湿度。
+E058,High,Electronic Eng,3,L1,V0,,LM358音频放大电路图，直接给我。
+E058,High,Electronic Eng,4,L1,V1,,给一个用555定时器产生1kHz方波的电路图，标出元件值。
+E058,High,Electronic Eng,5,L1,V1,R1,我计划用ESP32做一个温湿度记录仪，请先给出系统框图和各模块选型建议，我会自己画PCB。
+E059,High,Literature,1,L1,V0,,总结《红楼梦》的主题。
+E059,High,Literature,2,L1,V0,,写一段关于‘孤独’的排比句。
+E059,High,Literature,3,L1,V0,,分析林黛玉的性格特点，列出三点。
+E059,High,Literature,4,L2,V0,,写一段关于‘孤独’的排比句。
+E060,High,Mathematics,1,L1,V0,,"求解微分方程：y'' + y = 0, y(0)=1, y'(0)=0。"
+E060,High,Mathematics,2,L1,V0,,"计算矩阵[[1,2],[3,4]]的特征值。"
+E060,High,Mathematics,3,L1,V0,,解释一下泰勒展开的原理。
+E060,High,Mathematics,4,L1,V1,,"求解微分方程：y'' + y = 0, y(0)=1, y'(0)=0。"
+E061,High,Chemistry,1,L1,V0,,写出苯的凯库勒结构式。
+E061,High,Chemistry,2,L1,V0,,什么是化学平衡？一句话解释。
+E061,High,Chemistry,3,L1,V0,,如何配平氧化还原反应？步骤是什么？
+E061,High,Chemistry,4,L2,V2,R2,你解释的SN1和SN2区别我懂了，但我在做题时总是判断错误。我总结了一个判断流程，你帮我看看对不对？
+E061,High,Chemistry,5,L1,V1,R3,你写的化学平衡定义忽略了“动态”二字，容易误解。我已自行纠正。
+E062,High,Biology,1,L1,V0,,解释光合作用的过程。
+E062,High,Biology,2,L1,V0,,DNA转录和翻译的区别是什么？
+E062,High,Biology,3,L1,V0,,有丝分裂和减数分裂的区别？列表说明。
+E062,High,Biology,4,L1,V1,,解释光合作用的过程。
+E063,High,History,1,L1,V0,,列出甲午战争的主要战役。
+E063,High,History,2,L1,V0,,秦始皇统一六国的顺序是什么？
+E063,High,History,3,L1,V0,,分析辛亥革命失败的原因。
+E063,High,History,4,L1,V0,R3,你给的辛亥革命失败原因分析缺少“立宪派转向”这一点，我已补充到我的论文中。
+E064,High,Computer Science,1,L1,V0,,写一段Python代码实现快速排序。
+E064,High,Computer Science,2,L1,V0,,给我一个爬取网页图片的完整脚本。
+E064,High,Computer Science,3,L2,V0,,如何优化这段SQL查询？先给我思路。
+E065,High,Physics,1,L1,V0,,解释一下量子纠缠。
+E065,High,Physics,2,L1,V0,,写出薛定谔方程。
+E065,High,Physics,3,L1,V0,,光的波粒二象性是什么？
+E065,High,Physics,4,L1,V1,,解释一下量子纠缠。
+E065,High,Physics,5,L1,V0,R1,我接下来一周要复习相对论，请你每天出一个思考题，我自己做然后第二天和你讨论。
+E066,High,Economics,1,L1,V0,,解释一下‘边际效用递减’。
+E066,High,Economics,2,L1,V0,,写出GDP的三种计算方法。
+E066,High,Economics,3,L1,V0,,供求曲线移动如何影响均衡价格？分步骤说明。
+E067,High,Electronic Eng,1,L1,V0,,给一个用555定时器产生1kHz方波的电路图，标出元件值。
+E067,High,Electronic Eng,2,L1,V0,,写一段Arduino代码读取DHT11温湿度。
+E067,High,Electronic Eng,3,L1,V0,,LM358音频放大电路图，直接给我。
+E067,High,Electronic Eng,4,L1,V1,,给一个用555定时器产生1kHz方波的电路图，标出元件值。
+E067,High,Electronic Eng,5,L3,V2,R2,你给的Arduino代码中使用了delay，导致其他任务卡顿。我改用millis()实现了非阻塞，你看看逻辑对不对？
+E068,High,Literature,1,L1,V0,,总结《红楼梦》的主题。
+E068,High,Literature,2,L1,V0,,写一段关于‘孤独’的排比句。
+E068,High,Literature,3,L1,V0,,分析林黛玉的性格特点，列出三点。
+E068,High,Literature,4,L2,V0,,写一段关于‘孤独’的排比句。
+E069,High,Mathematics,1,L1,V0,,"求解微分方程：y'' + y = 0, y(0)=1, y'(0)=0。"
+E069,High,Mathematics,2,L1,V0,,"计算矩阵[[1,2],[3,4]]的特征值。"
+E069,High,Mathematics,3,L1,V0,,解释一下泰勒展开的原理。
+E069,High,Mathematics,4,L1,V1,,"求解微分方程：y'' + y = 0, y(0)=1, y'(0)=0。"
+E070,High,Chemistry,1,L1,V0,,写出苯的凯库勒结构式。
+E070,High,Chemistry,2,L1,V0,,什么是化学平衡？一句话解释。
+E070,High,Chemistry,3,L1,V0,,如何配平氧化还原反应？步骤是什么？
+E070,High,Chemistry,4,L1,V1,R3,你写的化学平衡定义忽略了“动态”二字，容易误解。我已自行纠正。
+E070,High,Chemistry,5,L2,V2,R2,你教的配平方法我学会了，但我遇到一个高锰酸钾与草酸的反应，怎么也配不平。我尝试了半反应法，你帮我检查一下。
+E071,High,Biology,1,L1,V0,,解释光合作用的过程。
+E071,High,Biology,2,L1,V0,,DNA转录和翻译的区别是什么？
+E071,High,Biology,3,L1,V0,,有丝分裂和减数分裂的区别？列表说明。
+E071,High,Biology,4,L1,V1,,解释光合作用的过程。
+E072,High,History,1,L1,V0,,列出甲午战争的主要战役。
+E072,High,History,2,L1,V0,,秦始皇统一六国的顺序是什么？
+E072,High,History,3,L1,V0,,分析辛亥革命失败的原因。
+E072,High,History,4,L2,V0,R1,我想研究“郑和下西洋”的贸易影响，请你先帮我列出三个可能的研究角度，我会选一个深入。
+E073,High,Computer Science,1,L1,V0,,写一段Python代码实现快速排序。
+E073,High,Computer Science,2,L1,V0,,给我一个爬取网页图片的完整脚本。
+E073,High,Computer Science,3,L2,V0,,解释一下什么是‘闭包’，写个例子。
+E074,High,Physics,1,L1,V0,,解释一下量子纠缠。
+E074,High,Physics,2,L1,V0,,写出薛定谔方程。
+E074,High,Physics,3,L1,V0,,光的波粒二象性是什么？
+E074,High,Physics,4,L1,V1,,解释一下量子纠缠。
+E074,High,Physics,5,L1,V0,R2,我发现我之前问的量子纠缠问题其实源于误解了“非定域性”，现在理解了，谢谢。
+E075,High,Economics,1,L1,V0,,解释一下‘边际效用递减’。
+E075,High,Economics,2,L1,V0,,写出GDP的三种计算方法。
+E075,High,Economics,3,L1,V0,,供求曲线移动如何影响均衡价格？分步骤说明。
+E076,High,Electronic Eng,1,L1,V0,,给一个用555定时器产生1kHz方波的电路图，标出元件值。
+E076,High,Electronic Eng,2,L1,V0,,写一段Arduino代码读取DHT11温湿度。
+E076,High,Electronic Eng,3,L1,V0,,LM358音频放大电路图，直接给我。
+E076,High,Electronic Eng,4,L1,V1,,给一个用555定时器产生1kHz方波的电路图，标出元件值。
+E076,High,Electronic Eng,5,L1,V1,R1,我需要设计一个电源管理电路，输入5V输出3.3V和1.8V，请先推荐合适的LDO型号，我会自己看数据手册。
+E077,High,Literature,1,L1,V0,,总结《红楼梦》的主题。
+E077,High,Literature,2,L1,V0,,写一段关于‘孤独’的排比句。
+E077,High,Literature,3,L1,V0,,分析林黛玉的性格特点，列出三点。
+E077,High,Literature,4,L2,V0,,写一段关于‘孤独’的排比句。
+E078,High,Mathematics,1,L1,V0,,"求解微分方程：y'' + y = 0, y(0)=1, y'(0)=0。"
+E078,High,Mathematics,2,L1,V0,,"计算矩阵[[1,2],[3,4]]的特征值。"
+E078,High,Mathematics,3,L1,V0,,解释一下泰勒展开的原理。
+E078,High,Mathematics,4,L1,V1,,"求解微分方程：y'' + y = 0, y(0)=1, y'(0)=0。"
+E079,High,Chemistry,1,L1,V0,,写出苯的凯库勒结构式。
+E079,High,Chemistry,2,L1,V0,,什么是化学平衡？一句话解释。
+E079,High,Chemistry,3,L1,V0,,如何配平氧化还原反应？步骤是什么？
+E079,High,Chemistry,4,L2,V2,R2,你教的配平方法我学会了，但我遇到一个高锰酸钾与草酸的反应，怎么也配不平。我尝试了半反应法，你帮我检查一下。
+E079,High,Chemistry,5,L1,V1,R3,你之前说“化学平衡常数只与温度有关”，我查了物理化学教材，压力对气体平衡常数也有影响（Kp与Kc区别）。请澄清。
+E080,High,Biology,1,L1,V0,,解释光合作用的过程。
+E080,High,Biology,2,L1,V0,,DNA转录和翻译的区别是什么？
+E080,High,Biology,3,L1,V0,,有丝分裂和减数分裂的区别？列表说明。
+E080,High,Biology,4,L1,V1,,解释光合作用的过程。
+E081,High,History,1,L1,V0,,列出甲午战争的主要战役。
+E081,High,History,2,L1,V0,,秦始皇统一六国的顺序是什么？
+E081,High,History,3,L1,V0,,分析辛亥革命失败的原因。
+E081,High,History,4,L1,V0,R3,你列出的甲午战争战役中，“黄海海战”的日期写错了，我已改成1894年9月17日。
+E082,High,Computer Science,1,L1,V0,,写一段Python代码实现快速排序。
+E082,High,Computer Science,2,L1,V0,,给我一个爬取网页图片的完整脚本。
+E082,High,Computer Science,3,L2,V0,,递归和迭代哪个效率更高？能讲一下原理吗？
+E083,High,Physics,1,L1,V0,,解释一下量子纠缠。
+E083,High,Physics,2,L1,V0,,写出薛定谔方程。
+E083,High,Physics,3,L1,V0,,光的波粒二象性是什么？
+E083,High,Physics,4,L1,V1,,解释一下量子纠缠。
+E083,High,Physics,5,L1,V0,R1,我计划做一个关于“多普勒效应”的科普视频，请你先帮我梳理出三个最有趣的应用案例。
+E084,High,Economics,1,L1,V0,,解释一下‘边际效用递减’。
+E084,High,Economics,2,L1,V0,,写出GDP的三种计算方法。
+E084,High,Economics,3,L1,V0,,供求曲线移动如何影响均衡价格？分步骤说明。
+E085,High,Electronic Eng,1,L1,V0,,给一个用555定时器产生1kHz方波的电路图，标出元件值。
+E085,High,Electronic Eng,2,L1,V0,,写一段Arduino代码读取DHT11温湿度。
+E085,High,Electronic Eng,3,L1,V0,,LM358音频放大电路图，直接给我。
+E085,High,Electronic Eng,4,L1,V1,,给一个用555定时器产生1kHz方波的电路图，标出元件值。
+E085,High,Electronic Eng,5,L3,V2,R2,你给的555电路输出频率不稳，我加了去耦电容后稳定了。但我发现温度变化时频率漂移，怎么补偿？
+E086,High,Literature,1,L1,V0,,总结《红楼梦》的主题。
+E086,High,Literature,2,L1,V0,,写一段关于‘孤独’的排比句。
+E086,High,Literature,3,L1,V0,,分析林黛玉的性格特点，列出三点。
+E086,High,Literature,4,L2,V0,,写一段关于‘孤独’的排比句。
+E087,High,Mathematics,1,L1,V0,,"求解微分方程：y'' + y = 0, y(0)=1, y'(0)=0。"
+E087,High,Mathematics,2,L1,V0,,"计算矩阵[[1,2],[3,4]]的特征值。"
+E087,High,Mathematics,3,L1,V0,,解释一下泰勒展开的原理。
+E087,High,Mathematics,4,L1,V1,,"求解微分方程：y'' + y = 0, y(0)=1, y'(0)=0。"
+E088,High,Chemistry,1,L1,V0,,写出苯的凯库勒结构式。
+E088,High,Chemistry,2,L1,V0,,什么是化学平衡？一句话解释。
+E088,High,Chemistry,3,L1,V0,,如何配平氧化还原反应？步骤是什么？
+E088,High,Chemistry,4,L1,V1,R3,你之前说“化学平衡常数只与温度有关”，我查了物理化学教材，压力对气体平衡常数也有影响（Kp与Kc区别）。请澄清。
+E088,High,Chemistry,5,L2,V2,R2,你解释的苯环结构我理解了，但我不知道为什么苯的亲电取代反应是邻对位定位。我查了共振论，你帮我总结一下？
+E089,High,Biology,1,L1,V0,,解释光合作用的过程。
+E089,High,Biology,2,L1,V0,,DNA转录和翻译的区别是什么？
+E089,High,Biology,3,L1,V0,,有丝分裂和减数分裂的区别？列表说明。
+E089,High,Biology,4,L1,V1,,解释光合作用的过程。
+E090,High,History,1,L1,V0,,列出甲午战争的主要战役。
+E090,High,History,2,L1,V0,,秦始皇统一六国的顺序是什么？
+E090,High,History,3,L1,V0,,分析辛亥革命失败的原因。
+E090,High,History,4,L2,V0,R1,我的课题是“丝绸之路上的技术交流”，请先帮我列出5种从中国传到西方的技术，我会自己找原始文献。
+E091,High,Computer Science,1,L1,V0,,写一段Python代码实现快速排序。
+E091,High,Computer Science,2,L1,V0,,给我一个爬取网页图片的完整脚本。
+E091,High,Computer Science,3,L2,V0,,什么是RESTful API？请分步骤说明。
+E092,High,Physics,1,L1,V0,,解释一下量子纠缠。
+E092,High,Physics,2,L1,V0,,写出薛定谔方程。
+E092,High,Physics,3,L1,V0,,光的波粒二象性是什么？
+E092,High,Physics,4,L1,V1,,解释一下量子纠缠。
+E092,High,Physics,5,L1,V0,R2,我反思了一下，我对“光的波粒二象性”的困惑其实是因为混淆了“粒子”和“量子”的概念，现在清楚了。
+E093,High,Economics,1,L1,V0,,解释一下‘边际效用递减’。
+E093,High,Economics,2,L1,V0,,写出GDP的三种计算方法。
+E093,High,Economics,3,L1,V0,,供求曲线移动如何影响均衡价格？分步骤说明。
+E094,High,Electronic Eng,1,L1,V0,,给一个用555定时器产生1kHz方波的电路图，标出元件值。
+E094,High,Electronic Eng,2,L1,V0,,写一段Arduino代码读取DHT11温湿度。
+E094,High,Electronic Eng,3,L1,V0,,LM358音频放大电路图，直接给我。
+E094,High,Electronic Eng,4,L1,V1,,给一个用555定时器产生1kHz方波的电路图，标出元件值。
+E094,High,Electronic Eng,5,L1,V1,R1,我需要设计一个电池充电管理电路，请先给出典型拓扑结构（BUCK/BOOST），我会根据我的输入输出电压选择。
+E095,High,Literature,1,L1,V0,,总结《红楼梦》的主题。
+E095,High,Literature,2,L1,V0,,写一段关于‘孤独’的排比句。
+E095,High,Literature,3,L1,V0,,分析林黛玉的性格特点，列出三点。
+E095,High,Literature,4,L2,V0,,写一段关于‘孤独’的排比句。
+E096,High,Mathematics,1,L1,V0,,"求解微分方程：y'' + y = 0, y(0)=1, y'(0)=0。"
+E096,High,Mathematics,2,L1,V0,,"计算矩阵[[1,2],[3,4]]的特征值。"
+E096,High,Mathematics,3,L1,V0,,解释一下泰勒展开的原理。
+E096,High,Mathematics,4,L1,V1,,"求解微分方程：y'' + y = 0, y(0)=1, y'(0)=0。"
+E097,High,Chemistry,1,L1,V0,,写出苯的凯库勒结构式。
+E097,High,Chemistry,2,L1,V0,,什么是化学平衡？一句话解释。
+E097,High,Chemistry,3,L1,V0,,如何配平氧化还原反应？步骤是什么？
+E097,High,Chemistry,4,L2,V2,R2,你解释的苯环结构我理解了，但我不知道为什么苯的亲电取代反应是邻对位定位。我查了共振论，你帮我总结一下？
+E097,High,Chemistry,5,L1,V1,R3,你写的“化学平衡”定义中，“正逆反应速率相等”没错，但遗漏了“各组分浓度不变”，我已补充。
+E098,High,Biology,1,L1,V0,,解释光合作用的过程。
+E098,High,Biology,2,L1,V0,,DNA转录和翻译的区别是什么？
+E098,High,Biology,3,L1,V0,,有丝分裂和减数分裂的区别？列表说明。
+E098,High,Biology,4,L1,V1,,解释光合作用的过程。
+E099,High,History,1,L1,V0,,列出甲午战争的主要战役。
+E099,High,History,2,L1,V0,,秦始皇统一六国的顺序是什么？
+E099,High,History,3,L1,V0,,分析辛亥革命失败的原因。
+E099,High,History,4,L1,V0,R3,你分析的“秦始皇统一六国顺序”中，灭韩和灭赵的顺序与《史记》不符，我已按史书修正。
+E100,High,Computer Science,1,L1,V0,,写一段Python代码实现快速排序。
+E100,High,Computer Science,2,L1,V0,,给我一个爬取网页图片的完整脚本。
+E100,High,Computer Science,3,L2,V0,,如何优化这段SQL查询？先给我思路。
+E101,High,Physics,1,L1,V0,,解释一下量子纠缠。
+E101,High,Physics,2,L1,V0,,写出薛定谔方程。
+E101,High,Physics,3,L1,V0,,光的波粒二象性是什么？
+E101,High,Physics,4,L1,V1,,解释一下量子纠缠。
+E101,High,Physics,5,L1,V0,R1,我计划做一个物理实验报告，主题是“单摆周期与摆长的关系”，请你先帮我列出实验步骤和注意事项，我会自己测量。
+E102,High,Economics,1,L1,V0,,解释一下‘边际效用递减’。
+E102,High,Economics,2,L1,V0,,写出GDP的三种计算方法。
+E102,High,Economics,3,L1,V0,,供求曲线移动如何影响均衡价格？分步骤说明。
+E103,High,Electronic Eng,1,L1,V0,,给一个用555定时器产生1kHz方波的电路图，标出元件值。
+E103,High,Electronic Eng,2,L1,V0,,写一段Arduino代码读取DHT11温湿度。
+E103,High,Electronic Eng,3,L1,V0,,LM358音频放大电路图，直接给我。
+E103,High,Electronic Eng,4,L1,V1,,给一个用555定时器产生1kHz方波的电路图，标出元件值。
+E103,High,Electronic Eng,5,L3,V2,R2,你给的LM358电路在低频时有1/f噪声，我改用OPA2376后改善很多。你能解释一下为什么OPA2376噪声更低吗？
+E104,High,Literature,1,L1,V0,,总结《红楼梦》的主题。
+E104,High,Literature,2,L1,V0,,写一段关于‘孤独’的排比句。
+E104,High,Literature,3,L1,V0,,分析林黛玉的性格特点，列出三点。
+E104,High,Literature,4,L2,V0,,写一段关于‘孤独’的排比句。
+E105,High,Mathematics,1,L1,V0,,"求解微分方程：y'' + y = 0, y(0)=1, y'(0)=0。"
+E105,High,Mathematics,2,L1,V0,,"计算矩阵[[1,2],[3,4]]的特征值。"
+E105,High,Mathematics,3,L1,V0,,解释一下泰勒展开的原理。
+E105,High,Mathematics,4,L1,V1,,"求解微分方程：y'' + y = 0, y(0)=1, y'(0)=0。"
+E106,High,Chemistry,1,L1,V0,,写出苯的凯库勒结构式。
+E106,High,Chemistry,2,L1,V0,,什么是化学平衡？一句话解释。
+E106,High,Chemistry,3,L1,V0,,如何配平氧化还原反应？步骤是什么？
+E106,High,Chemistry,4,L1,V1,R3,你写的“化学平衡”定义中，“正逆反应速率相等”没错，但遗漏了“各组分浓度不变”，我已补充。
+E106,High,Chemistry,5,L2,V2,R2,你教的氧化还原配平我懂了，但遇到有介质参与的（如酸性/碱性）时还是不会。我总结了一个表格，你帮我验证？
+E107,High,Biology,1,L1,V0,,解释光合作用的过程。
+E107,High,Biology,2,L1,V0,,DNA转录和翻译的区别是什么？
+E107,High,Biology,3,L1,V0,,有丝分裂和减数分裂的区别？列表说明。
+E107,High,Biology,4,L1,V1,,解释光合作用的过程。
+E108,High,History,1,L1,V0,,列出甲午战争的主要战役。
+E108,High,History,2,L1,V0,,秦始皇统一六国的顺序是什么？
+E108,High,History,3,L1,V0,,分析辛亥革命失败的原因。
+E108,High,History,4,L2,V0,R1,我想写一篇关于“文艺复兴与科学革命”的比较论文，请先帮我列出三个比较维度，我会自己填充内容。
+E109,High,Computer Science,1,L1,V0,,写一段Python代码实现快速排序。
+E109,High,Computer Science,2,L1,V0,,给我一个爬取网页图片的完整脚本。
+E109,High,Computer Science,3,L2,V0,,解释一下什么是‘闭包’，写个例子。
+E110,High,Physics,1,L1,V0,,解释一下量子纠缠。
+E110,High,Physics,2,L1,V0,,写出薛定谔方程。
+E110,High,Physics,3,L1,V0,,光的波粒二象性是什么？
+E110,High,Physics,4,L1,V1,,解释一下量子纠缠。
+E110,High,Physics,5,L1,V0,R2,我发现自己总是记不住麦克斯韦方程组的积分形式，刚才自己推导了一遍，终于记住了。
+E111,High,Economics,1,L1,V0,,解释一下‘边际效用递减’。
+E111,High,Economics,2,L1,V0,,写出GDP的三种计算方法。
+E111,High,Economics,3,L1,V0,,供求曲线移动如何影响均衡价格？分步骤说明。
+E112,High,Electronic Eng,1,L1,V0,,给一个用555定时器产生1kHz方波的电路图，标出元件值。
+E112,High,Electronic Eng,2,L1,V0,,写一段Arduino代码读取DHT11温湿度。
+E112,High,Electronic Eng,3,L1,V0,,LM358音频放大电路图，直接给我。
+E112,High,Electronic Eng,4,L1,V1,,给一个用555定时器产生1kHz方波的电路图，标出元件值。
+E112,High,Electronic Eng,5,L1,V1,R1,我需要用STM32驱动一个OLED显示屏，请先给出硬件连接图和初始化代码框架，我会自己写显示函数。
+E113,High,Literature,1,L1,V0,,总结《红楼梦》的主题。
+E113,High,Literature,2,L1,V0,,写一段关于‘孤独’的排比句。
+E113,High,Literature,3,L1,V0,,分析林黛玉的性格特点，列出三点。
+E113,High,Literature,4,L2,V0,,写一段关于‘孤独’的排比句。
+E114,High,Mathematics,1,L1,V0,,"求解微分方程：y'' + y = 0, y(0)=1, y'(0)=0。"
+E114,High,Mathematics,2,L1,V0,,"计算矩阵[[1,2],[3,4]]的特征值。"
+E114,High,Mathematics,3,L1,V0,,解释一下泰勒展开的原理。
+E114,High,Mathematics,4,L1,V1,,"求解微分方程：y'' + y = 0, y(0)=1, y'(0)=0。"
+E115,High,Chemistry,1,L1,V0,,写出苯的凯库勒结构式。
+E115,High,Chemistry,2,L1,V0,,什么是化学平衡？一句话解释。
+E115,High,Chemistry,3,L1,V0,,如何配平氧化还原反应？步骤是什么？
+E115,High,Chemistry,4,L2,V2,R2,你教的氧化还原配平我懂了，但遇到有介质参与的（如酸性/碱性）时还是不会。我总结了一个表格，你帮我验证？
+E115,High,Chemistry,5,L1,V1,R3,你之前写的“苯的凯库勒结构”没有交代共振论，我已在我的笔记中补充了现代观点。
+E116,High,Biology,1,L1,V0,,解释光合作用的过程。
+E116,High,Biology,2,L1,V0,,DNA转录和翻译的区别是什么？
+E116,High,Biology,3,L1,V0,,有丝分裂和减数分裂的区别？列表说明。
+E116,High,Biology,4,L1,V1,,解释光合作用的过程。
+E117,High,History,1,L1,V0,,列出甲午战争的主要战役。
+E117,High,History,2,L1,V0,,秦始皇统一六国的顺序是什么？
+E117,High,History,3,L1,V0,,分析辛亥革命失败的原因。
+E117,High,History,4,L1,V0,R3,你提到的“罗马帝国分裂”原因中忽略了“经济重心东移”，我已将此点加入我的分析框架。
+E118,High,Computer Science,1,L1,V0,,写一段Python代码实现快速排序。
+E118,High,Computer Science,2,L1,V0,,给我一个爬取网页图片的完整脚本。
+E118,High,Computer Science,3,L2,V0,,递归和迭代哪个效率更高？能讲一下原理吗？
+E119,High,Physics,1,L1,V0,,解释一下量子纠缠。
+E119,High,Physics,2,L1,V0,,写出薛定谔方程。
+E119,High,Physics,3,L1,V0,,光的波粒二象性是什么？
+E119,High,Physics,4,L1,V1,,解释一下量子纠缠。
+E119,High,Physics,5,L1,V0,R1,我接下来要准备物理竞赛，请你每天给我出一道经典力学难题，我会自己解然后请你评分。
+E120,High,Economics,1,L1,V0,,解释一下‘边际效用递减’。
+E120,High,Economics,2,L1,V0,,写出GDP的三种计算方法。
+E120,High,Economics,3,L1,V0,,供求曲线移动如何影响均衡价格？分步骤说明。
+E121,High,Electronic Eng,1,L1,V0,,给一个用555定时器产生1kHz方波的电路图，标出元件值。
+E121,High,Electronic Eng,2,L1,V0,,写一段Arduino代码读取DHT11温湿度。
+E121,High,Electronic Eng,3,L1,V0,,LM358音频放大电路图，直接给我。
+E121,High,Electronic Eng,4,L1,V1,,给一个用555定时器产生1kHz方波的电路图，标出元件值。
+E121,High,Electronic Eng,5,L3,V2,R2,你给的555电路我改了R1/R2的值后频率对了，但占空比不对称。我用二极管分流解决了，你帮我看看原理是否正确？
+E122,High,Literature,1,L1,V0,,总结《红楼梦》的主题。
+E122,High,Literature,2,L1,V0,,写一段关于‘孤独’的排比句。
+E122,High,Literature,3,L1,V0,,分析林黛玉的性格特点，列出三点。
+E122,High,Literature,4,L2,V0,,写一段关于‘孤独’的排比句。
+E123,High,Mathematics,1,L1,V0,,"求解微分方程：y'' + y = 0, y(0)=1, y'(0)=0。"
+E123,High,Mathematics,2,L1,V0,,"计算矩阵[[1,2],[3,4]]的特征值。"
+E123,High,Mathematics,3,L1,V0,,解释一下泰勒展开的原理。
+E123,High,Mathematics,4,L1,V1,,"求解微分方程：y'' + y = 0, y(0)=1, y'(0)=0。"
+E124,High,Chemistry,1,L1,V0,,写出苯的凯库勒结构式。
+E124,High,Chemistry,2,L1,V0,,什么是化学平衡？一句话解释。
+E124,High,Chemistry,3,L1,V0,,如何配平氧化还原反应？步骤是什么？
+E124,High,Chemistry,4,L1,V1,R3,你之前写的“苯的凯库勒结构”没有交代共振论，我已在我的笔记中补充了现代观点。
+E124,High,Chemistry,5,L2,V2,R2,你解释的化学平衡移动（勒夏特列原理）我懂了，但遇到压强变化时总是判断错。我画了一个思维导图，你帮我看看逻辑对吗？
+E125,High,Biology,1,L1,V0,,解释光合作用的过程。
+E125,High,Biology,2,L1,V0,,DNA转录和翻译的区别是什么？
+E125,High,Biology,3,L1,V0,,有丝分裂和减数分裂的区别？列表说明。
+E125,High,Biology,4,L1,V1,,解释光合作用的过程。
+E126,High,History,1,L1,V0,,列出甲午战争的主要战役。
+E126,High,History,2,L1,V0,,秦始皇统一六国的顺序是什么？
+E126,High,History,3,L1,V0,,分析辛亥革命失败的原因。
+E126,High,History,4,L2,V0,R1,我的论文题目是“鸦片战争对中国近代化的双重影响”，请先帮我列出正反两方面的论点提纲，我会自己找证据。
+E127,High,Computer Science,1,L1,V0,,写一段Python代码实现快速排序。
+E127,High,Computer Science,2,L1,V0,,给我一个爬取网页图片的完整脚本。
+E127,High,Computer Science,3,L2,V0,,什么是RESTful API？请分步骤说明。
+E128,High,Physics,1,L1,V0,,解释一下量子纠缠。
+E128,High,Physics,2,L1,V0,,写出薛定谔方程。
+E128,High,Physics,3,L1,V0,,光的波粒二象性是什么？
+E128,High,Physics,4,L1,V1,,解释一下量子纠缠。
+E128,High,Physics,5,L1,V0,R2,我刚才问的问题其实教材上有答案，是我没仔细看。以后我会先查书再问你。
+E129,High,Economics,1,L1,V0,,解释一下‘边际效用递减’。
+E129,High,Economics,2,L1,V0,,写出GDP的三种计算方法。
+E129,High,Economics,3,L1,V0,,供求曲线移动如何影响均衡价格？分步骤说明。
+E130,High,Electronic Eng,1,L1,V0,,给一个用555定时器产生1kHz方波的电路图，标出元件值。
+E130,High,Electronic Eng,2,L1,V0,,写一段Arduino代码读取DHT11温湿度。
+E130,High,Electronic Eng,3,L1,V0,,LM358音频放大电路图，直接给我。
+E130,High,Electronic Eng,4,L1,V1,,给一个用555定时器产生1kHz方波的电路图，标出元件值。
+E130,High,Electronic Eng,5,L1,V1,R1,我需要设计一个USB转串口电路，请先推荐常用的芯片型号（如CH340、CP2102），我会自己比较选型。
+E131,High,Literature,1,L1,V0,,总结《红楼梦》的主题。
+E131,High,Literature,2,L1,V0,,写一段关于‘孤独’的排比句。
+E131,High,Literature,3,L1,V0,,分析林黛玉的性格特点，列出三点。
+E131,High,Literature,4,L2,V0,,写一段关于‘孤独’的排比句。
+E132,High,Mathematics,1,L1,V0,,"求解微分方程：y'' + y = 0, y(0)=1, y'(0)=0。"
+E132,High,Mathematics,2,L1,V0,,"计算矩阵[[1,2],[3,4]]的特征值。"
+E132,High,Mathematics,3,L1,V0,,解释一下泰勒展开的原理。
+E132,High,Mathematics,4,L1,V1,,"求解微分方程：y'' + y = 0, y(0)=1, y'(0)=0。"
+E133,High,Chemistry,1,L1,V0,,写出苯的凯库勒结构式。
+E133,High,Chemistry,2,L1,V0,,什么是化学平衡？一句话解释。
+E133,High,Chemistry,3,L1,V0,,如何配平氧化还原反应？步骤是什么？
+E133,High,Chemistry,4,L2,V2,R2,你解释的化学平衡移动（勒夏特列原理）我懂了，但遇到压强变化时总是判断错。我画了一个思维导图，你帮我看看逻辑对吗？
+E133,High,Chemistry,5,L1,V1,R3,你之前解释“化学平衡常数”时用了理想气体假设，但我的反应在高压下，我已改用逸度修正。
+E134,High,Biology,1,L1,V0,,解释光合作用的过程。
+E134,High,Biology,2,L1,V0,,DNA转录和翻译的区别是什么？
+E134,High,Biology,3,L1,V0,,有丝分裂和减数分裂的区别？列表说明。
+E134,High,Biology,4,L1,V1,,解释光合作用的过程。
+E135,High,History,1,L1,V0,,列出甲午战争的主要战役。
+E135,High,History,2,L1,V0,,秦始皇统一六国的顺序是什么？
+E135,High,History,3,L1,V0,,分析辛亥革命失败的原因。
+E135,High,History,4,L1,V0,R3,你列出的“甲午战争”主要战役中漏掉了“旅顺大屠杀”，我已补充到我的 timeline 中。
+E136,High,Computer Science,1,L1,V0,,写一段Python代码实现快速排序。
+E136,High,Computer Science,2,L1,V0,,给我一个爬取网页图片的完整脚本。
+E136,High,Computer Science,3,L2,V0,,如何优化这段SQL查询？先给我思路。
+E137,High,Physics,1,L1,V0,,解释一下量子纠缠。
+E137,High,Physics,2,L1,V0,,写出薛定谔方程。
+E137,High,Physics,3,L1,V0,,光的波粒二象性是什么？
+E137,High,Physics,4,L1,V1,,解释一下量子纠缠。
+E137,High,Physics,5,L1,V0,R1,我计划做一个“电磁感应”的教学课件，请先帮我列出核心知识点和常见误区，我会自己设计动画。
+E138,High,Economics,1,L1,V0,,解释一下‘边际效用递减’。
+E138,High,Economics,2,L1,V0,,写出GDP的三种计算方法。
+E138,High,Economics,3,L1,V0,,供求曲线移动如何影响均衡价格？分步骤说明。
+E139,High,Electronic Eng,1,L1,V0,,给一个用555定时器产生1kHz方波的电路图，标出元件值。
+E139,High,Electronic Eng,2,L1,V0,,写一段Arduino代码读取DHT11温湿度。
+E139,High,Electronic Eng,3,L1,V0,,LM358音频放大电路图，直接给我。
+E139,High,Electronic Eng,4,L1,V1,,给一个用555定时器产生1kHz方波的电路图，标出元件值。
+E139,High,Electronic Eng,5,L3,V2,R2,你给的Arduino代码中读取DHT11的时序有问题，我参考数据手册改了延时参数，现在读数正常了。谢谢你给的框架。
+E140,High,Literature,1,L1,V0,,总结《红楼梦》的主题。
+E140,High,Literature,2,L1,V0,,写一段关于‘孤独’的排比句。
+E140,High,Literature,3,L1,V0,,分析林黛玉的性格特点，列出三点。
+E140,High,Literature,4,L2,V0,,写一段关于‘孤独’的排比句。
+E141,High,Mathematics,1,L1,V0,,"求解微分方程：y'' + y = 0, y(0)=1, y'(0)=0。"
+E141,High,Mathematics,2,L1,V0,,"计算矩阵[[1,2],[3,4]]的特征值。"
+E141,High,Mathematics,3,L1,V0,,解释一下泰勒展开的原理。
+E141,High,Mathematics,4,L1,V1,,"求解微分方程：y'' + y = 0, y(0)=1, y'(0)=0。"
+E142,High,Chemistry,1,L1,V0,,写出苯的凯库勒结构式。
+E142,High,Chemistry,2,L1,V0,,什么是化学平衡？一句话解释。
+E142,High,Chemistry,3,L1,V0,,如何配平氧化还原反应？步骤是什么？
+E142,High,Chemistry,4,L1,V1,R3,你之前解释“化学平衡常数”时用了理想气体假设，但我的反应在高压下，我已改用逸度修正。
+E142,High,Chemistry,5,L1,V1,R1,我需要设计一个简单的原电池实验，请先帮我列出电极材料和电解质，我会自己搭建。
+E143,High,Biology,1,L1,V0,,解释光合作用的过程。
+E143,High,Biology,2,L1,V0,,DNA转录和翻译的区别是什么？
+E143,High,Biology,3,L1,V0,,有丝分裂和减数分裂的区别？列表说明。
+E143,High,Biology,4,L1,V1,,解释光合作用的过程。
+E144,High,History,1,L1,V0,,列出甲午战争的主要战役。
+E144,High,History,2,L1,V0,,秦始皇统一六国的顺序是什么？
+E144,High,History,3,L1,V0,,分析辛亥革命失败的原因。
+E144,High,History,4,L2,V0,R1,我想研究“新文化运动与白话文推广”，请先帮我列出三位代表人物及其主要贡献，我会自己阅读他们的原作。
+E145,High,Computer Science,1,L1,V0,,写一段Python代码实现快速排序。
+E145,High,Computer Science,2,L1,V0,,给我一个爬取网页图片的完整脚本。
+E145,High,Computer Science,3,L2,V0,,解释一下什么是‘闭包’，写个例子。
+E146,High,Physics,1,L1,V0,,解释一下量子纠缠。
+E146,High,Physics,2,L1,V0,,写出薛定谔方程。
+E146,High,Physics,3,L1,V0,,光的波粒二象性是什么？
+E146,High,Physics,4,L1,V1,,解释一下量子纠缠。
+E146,High,Physics,5,L1,V0,R2,我反思了我对“薛定谔方程”的误解，其实它是假说而不是推导出来的，现在理解了这个前提。
+E147,High,Economics,1,L1,V0,,解释一下‘边际效用递减’。
+E147,High,Economics,2,L1,V0,,写出GDP的三种计算方法。
+E147,High,Economics,3,L1,V0,,供求曲线移动如何影响均衡价格？分步骤说明。
+E148,High,Electronic Eng,1,L1,V0,,给一个用555定时器产生1kHz方波的电路图，标出元件值。
+E148,High,Electronic Eng,2,L1,V0,,写一段Arduino代码读取DHT11温湿度。
+E148,High,Electronic Eng,3,L1,V0,,LM358音频放大电路图，直接给我。
+E148,High,Electronic Eng,4,L1,V1,,给一个用555定时器产生1kHz方波的电路图，标出元件值。
+E148,High,Electronic Eng,5,L1,V1,R1,我需要设计一个电机驱动电路（H桥），请先给出典型拓扑和MOSFET选型建议，我会自己计算电流。
+E149,High,Literature,1,L1,V0,,总结《红楼梦》的主题。
+E149,High,Literature,2,L1,V0,,写一段关于‘孤独’的排比句。
+E149,High,Literature,3,L1,V0,,分析林黛玉的性格特点，列出三点。
+E149,High,Literature,4,L2,V0,,写一段关于‘孤独’的排比句。
+E150,High,Mathematics,1,L1,V0,,"求解微分方程：y'' + y = 0, y(0)=1, y'(0)=0。"
+E150,High,Mathematics,2,L1,V0,,"计算矩阵[[1,2],[3,4]]的特征值。"
+E150,High,Mathematics,3,L1,V0,,解释一下泰勒展开的原理。
+E150,High,Mathematics,4,L1,V1,,"求解微分方程：y'' + y = 0, y(0)=1, y'(0)=0。"
+E150,High,Mathematics,5,L1,V0,R3,你算的微分方程解是对的，但常数项符号我验算发现反了，我重新推导后确认是你写错了，已修正。
